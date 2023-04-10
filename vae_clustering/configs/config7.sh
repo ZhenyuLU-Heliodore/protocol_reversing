@@ -1,0 +1,11 @@
+python3.7 ../train.py \
+--lambda1 0.5 \
+--lambda2 0.5 \
+--label_smooth 0.2 \
+--device "cuda:1" \
+--loss3_type "triplet" \
+--triplet_margin 1. \
+--txt_result_prefix "../logs/txt/3.29/config7" \
+--tb_result_dir "../logs/tb/3.29/config7" \
+--model_prefix "../models/3.29/config7/VAE" \
+--optimizer_prefix "../models/3.29/config7/VAE_opt"

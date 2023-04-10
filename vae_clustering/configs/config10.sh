@@ -1,0 +1,14 @@
+python3.7 ../train.py \
+--lambda1 0.5 \
+--lambda2 0.5 \
+--label_smooth 0.2 \
+--device "cuda:2" \
+--loss3_type "triplet" \
+--triplet_margin 2. \
+--txt_result_prefix "../logs/txt/4.9/config10" \
+--tb_result_dir "../logs/tb/4.9/config10" \
+--model_prefix "../models/4.9/config10/VAE" \
+--optimizer_prefix "../models/4.9/config10/VAE_op" \
+--encoder_dim 32 \
+--decoder_dim 32 \
+--dim_ffn 256
