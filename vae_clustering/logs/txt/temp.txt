@@ -1,5 +1,0 @@
-args:
-Namespace(activation='relu', batch_size=64, decoder_dim=256, decoder_norm=None, device='cuda', dim_ffn=512, dropout=0.1, encoder_dim=256, encoder_norm=None, epochs=500, eval_metric='rand_score', label_smooth=0.5, lambda1=1.0, lambda2=3.0, layer_norm_eps=1e-05, loss3_type='triplet', lr=0.0001, model_prefix=None, model_saving_step=10, num_classes=4, num_decoder_layers=4, num_encoder_layers=4, num_heads=8, num_tokens=256, optimizer_prefix=None, pad_id=256, seq_len=256, start_epoch=0, start_model_path=None, start_optimizer_path=None, tb_result_dir='./logs/tb/temp', training_set='./dataset/training_set.pt', triplet_margin=1.0, txt_result_prefix='./logs/txt/temp', valid_batch_size=64, validation_set='./dataset/validation_set.pt')
-
-Train Epoch 1 Itr: 100	>	Loss: 9.494123
- recon_loss: 5.461155414581299, kl_loss: 1.0375392436981201, triplet: 0.9203488230705261
