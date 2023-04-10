@@ -1,0 +1,1645 @@
+args:
+Namespace(activation='relu', batch_size=64, decoder_dim=256, decoder_norm=None, device='cuda:5', dim_ffn=512, dropout=0.1, encoder_dim=256, encoder_norm=None, epochs=500, eval_metric='rand_score', label_smooth=0.1, lambda1=0.5, lambda2=0.5, layer_norm_eps=1e-05, loss3_type='triplet', lr=0.0001, model_prefix='../models/3.29/config8/VAE', model_saving_step=10, num_classes=4, num_decoder_layers=4, num_encoder_layers=4, num_heads=8, num_tokens=256, optimizer_prefix='../models/3.29/config8/VAE_opt', pad_id=256, seq_len=256, start_epoch=0, start_model_path=None, start_optimizer_path=None, tb_result_dir='../logs/tb/3.29/config8', training_set='../dataset/training_set.pt', triplet_margin=2.0, txt_result_prefix='../logs/txt/3.29/config8', valid_batch_size=64, validation_set='../dataset/validation_set.pt')
+
+Train Epoch 1 Itr: 100	>	Loss: 4.988657
+ recon_loss: 5.394514560699463, kl_loss: 1.1407725811004639, triplet: 1.7210131883621216
+Train Epoch 1 Itr: 200	>	Loss: 4.038234
+ recon_loss: 5.194282531738281, kl_loss: 1.012058138847351, triplet: 0.9350625872612
+Train Epoch 1 Itr: 300	>	Loss: 3.852827
+ recon_loss: 5.056478023529053, kl_loss: 0.9842221140861511, triplet: 0.8324778079986572
+Train Epoch 1 Itr: 400	>	Loss: 3.643948
+ recon_loss: 4.970390319824219, kl_loss: 0.9634092450141907, triplet: 0.6770479679107666
+Train Epoch 1 Itr: 500	>	Loss: 3.541134
+ recon_loss: 4.918283939361572, kl_loss: 0.9171497821807861, triplet: 0.623416006565094
+Train Epoch: 1	>	Loss: 4.012960
+ recon_loss: 5.106791973114014, kl_loss: 1.0035223960876465, triplet: 0.9578042030334473
+Validation Epoch: 1	>	Loss: 3.485056	Score: 0.250074
+
+Train Epoch: 2	>	Loss: 3.512438
+ recon_loss: 4.83401346206665, kl_loss: 0.8770796060562134, triplet: 0.6568934917449951
+Validation Epoch: 2	>	Loss: 3.612943	Score: 0.250074
+
+Train Epoch: 3	>	Loss: 3.586339
+ recon_loss: 4.776208877563477, kl_loss: 0.8905910849571228, triplet: 0.7529380917549133
+Validation Epoch: 3	>	Loss: 3.597732	Score: 0.250074
+
+Train Epoch: 4	>	Loss: 3.555874
+ recon_loss: 4.740617752075195, kl_loss: 0.8351853489875793, triplet: 0.7679717540740967
+Validation Epoch: 4	>	Loss: 3.502913	Score: 0.250074
+
+Train Epoch: 5	>	Loss: 3.518916
+ recon_loss: 4.716697692871094, kl_loss: 0.8046811819076538, triplet: 0.758226215839386
+Validation Epoch: 5	>	Loss: 3.491376	Score: 0.250074
+
+Train Epoch: 6	>	Loss: 3.502923
+ recon_loss: 4.697978973388672, kl_loss: 0.7708256244659424, triplet: 0.7685233950614929
+Validation Epoch: 6	>	Loss: 3.483914	Score: 0.250074
+
+Train Epoch: 7	>	Loss: 3.482779
+ recon_loss: 4.682767391204834, kl_loss: 0.7456701993942261, triplet: 0.7685602307319641
+Validation Epoch: 7	>	Loss: 3.498916	Score: 0.250074
+
+Train Epoch: 8	>	Loss: 3.467709
+ recon_loss: 4.676081657409668, kl_loss: 0.7264975309371948, triplet: 0.7664189338684082
+Validation Epoch: 8	>	Loss: 3.449512	Score: 0.250074
+
+Train Epoch: 9	>	Loss: 3.440571
+ recon_loss: 4.667607307434082, kl_loss: 0.7089072465896606, triplet: 0.7523140907287598
+Validation Epoch: 9	>	Loss: 3.432941	Score: 0.250074
+
+Train Epoch: 10	>	Loss: 3.421845
+ recon_loss: 4.660922050476074, kl_loss: 0.6923339366912842, triplet: 0.745215654373169
+Validation Epoch: 10	>	Loss: 3.413246	Score: 0.250074
+
+Train Epoch: 11	>	Loss: 3.402249
+ recon_loss: 4.659040451049805, kl_loss: 0.6783255338668823, triplet: 0.7335681915283203
+Validation Epoch: 11	>	Loss: 3.414932	Score: 0.250074
+
+Train Epoch: 12	>	Loss: 3.388502
+ recon_loss: 4.658058166503906, kl_loss: 0.6638043522834778, triplet: 0.7275682687759399
+Validation Epoch: 12	>	Loss: 3.372890	Score: 0.250074
+
+Train Epoch: 13	>	Loss: 3.372088
+ recon_loss: 4.656461238861084, kl_loss: 0.6533385515213013, triplet: 0.7171872854232788
+Validation Epoch: 13	>	Loss: 3.382917	Score: 0.250074
+
+Train Epoch: 14	>	Loss: 3.345598
+ recon_loss: 4.6555495262146, kl_loss: 0.6422055959701538, triplet: 0.6967200040817261
+Validation Epoch: 14	>	Loss: 3.349815	Score: 0.250074
+
+Train Epoch: 15	>	Loss: 3.329318
+ recon_loss: 4.655359745025635, kl_loss: 0.6322407722473145, triplet: 0.6855202317237854
+Validation Epoch: 15	>	Loss: 3.310537	Score: 0.250074
+
+Train Epoch: 16	>	Loss: 3.312398
+ recon_loss: 4.655359745025635, kl_loss: 0.6214194297790527, triplet: 0.6740120053291321
+Validation Epoch: 16	>	Loss: 3.284568	Score: 0.250074
+
+Train Epoch: 17	>	Loss: 3.288353
+ recon_loss: 4.655359268188477, kl_loss: 0.6124752759933472, triplet: 0.6544399857521057
+Validation Epoch: 17	>	Loss: 3.283996	Score: 0.250074
+
+Train Epoch: 18	>	Loss: 3.272213
+ recon_loss: 4.655359268188477, kl_loss: 0.6053550243377686, triplet: 0.6418578028678894
+Validation Epoch: 18	>	Loss: 3.284555	Score: 0.250074
+
+Train Epoch: 19	>	Loss: 3.257223
+ recon_loss: 4.655359268188477, kl_loss: 0.596210241317749, triplet: 0.631441593170166
+Validation Epoch: 19	>	Loss: 3.253689	Score: 0.250074
+
+Train Epoch: 20	>	Loss: 3.248101
+ recon_loss: 4.655359268188477, kl_loss: 0.5880690217018127, triplet: 0.6263907551765442
+Validation Epoch: 20	>	Loss: 3.221387	Score: 0.250074
+
+Train Epoch: 21	>	Loss: 3.221355
+ recon_loss: 4.655359268188477, kl_loss: 0.581383466720581, triplet: 0.6029860377311707
+Validation Epoch: 21	>	Loss: 3.212397	Score: 0.250074
+
+Train Epoch: 22	>	Loss: 3.211571
+ recon_loss: 4.655359268188477, kl_loss: 0.5767608284950256, triplet: 0.5955164432525635
+Validation Epoch: 22	>	Loss: 3.211082	Score: 0.250074
+
+Train Epoch: 23	>	Loss: 3.198066
+ recon_loss: 4.655359268188477, kl_loss: 0.569750189781189, triplet: 0.5855129957199097
+Validation Epoch: 23	>	Loss: 3.175203	Score: 0.250074
+
+Train Epoch: 24	>	Loss: 3.177057
+ recon_loss: 4.655359268188477, kl_loss: 0.5633599758148193, triplet: 0.567699134349823
+Validation Epoch: 24	>	Loss: 3.177718	Score: 0.250074
+
+Train Epoch: 25	>	Loss: 3.173002
+ recon_loss: 4.655359268188477, kl_loss: 0.5609400868415833, triplet: 0.5648558735847473
+Validation Epoch: 25	>	Loss: 3.160028	Score: 0.250074
+
+Train Epoch: 26	>	Loss: 3.155520
+ recon_loss: 4.655359268188477, kl_loss: 0.5547494292259216, triplet: 0.550467848777771
+Validation Epoch: 26	>	Loss: 3.152210	Score: 0.250074
+
+Train Epoch: 27	>	Loss: 3.143628
+ recon_loss: 4.655359268188477, kl_loss: 0.5498385429382324, triplet: 0.5410318970680237
+Validation Epoch: 27	>	Loss: 3.147391	Score: 0.250074
+
+Train Epoch: 28	>	Loss: 3.137072
+ recon_loss: 4.655359268188477, kl_loss: 0.5458650588989258, triplet: 0.5364614725112915
+Validation Epoch: 28	>	Loss: 3.143854	Score: 0.250074
+
+Train Epoch: 29	>	Loss: 3.137315
+ recon_loss: 4.655359268188477, kl_loss: 0.540886640548706, triplet: 0.5391936302185059
+Validation Epoch: 29	>	Loss: 3.126115	Score: 0.250074
+
+Train Epoch: 30	>	Loss: 3.128656
+ recon_loss: 4.655359268188477, kl_loss: 0.5372739434242249, triplet: 0.5323454737663269
+Validation Epoch: 30	>	Loss: 3.128568	Score: 0.250074
+
+Train Epoch: 31	>	Loss: 3.122805
+ recon_loss: 4.655359268188477, kl_loss: 0.5340934991836548, triplet: 0.528083086013794
+Validation Epoch: 31	>	Loss: 3.116490	Score: 0.250074
+
+Train Epoch: 32	>	Loss: 3.117831
+ recon_loss: 4.655359268188477, kl_loss: 0.5309972167015076, triplet: 0.5246551632881165
+Validation Epoch: 32	>	Loss: 3.114562	Score: 0.250074
+
+Train Epoch: 33	>	Loss: 3.110170
+ recon_loss: 4.655359268188477, kl_loss: 0.5285944938659668, triplet: 0.5181986093521118
+Validation Epoch: 33	>	Loss: 3.113652	Score: 0.250074
+
+Train Epoch: 34	>	Loss: 3.108576
+ recon_loss: 4.655359268188477, kl_loss: 0.5258690714836121, triplet: 0.5179646015167236
+Validation Epoch: 34	>	Loss: 3.104881	Score: 0.250074
+
+Train Epoch: 35	>	Loss: 3.104626
+ recon_loss: 4.655359268188477, kl_loss: 0.5234470963478088, triplet: 0.515225887298584
+Validation Epoch: 35	>	Loss: 3.104057	Score: 0.250074
+
+Train Epoch: 36	>	Loss: 3.106284
+ recon_loss: 4.655359268188477, kl_loss: 0.521399974822998, triplet: 0.5179088115692139
+Validation Epoch: 36	>	Loss: 3.108422	Score: 0.250074
+
+Train Epoch: 37	>	Loss: 3.104271
+ recon_loss: 4.655359268188477, kl_loss: 0.5196433067321777, triplet: 0.5167750120162964
+Validation Epoch: 37	>	Loss: 3.105998	Score: 0.250074
+
+Train Epoch: 38	>	Loss: 3.098634
+ recon_loss: 4.655359268188477, kl_loss: 0.5182695388793945, triplet: 0.5118239521980286
+Validation Epoch: 38	>	Loss: 3.089772	Score: 0.250074
+
+Train Epoch: 39	>	Loss: 3.093398
+ recon_loss: 4.655359268188477, kl_loss: 0.5165090560913086, triplet: 0.5074652433395386
+Validation Epoch: 39	>	Loss: 3.091095	Score: 0.250074
+
+Train Epoch: 40	>	Loss: 3.092546
+ recon_loss: 4.655359268188477, kl_loss: 0.515483558177948, triplet: 0.507129430770874
+Validation Epoch: 40	>	Loss: 3.091263	Score: 0.250074
+
+Train Epoch: 41	>	Loss: 3.094162
+ recon_loss: 4.655359268188477, kl_loss: 0.5162432789802551, triplet: 0.5083626508712769
+Validation Epoch: 41	>	Loss: 3.095812	Score: 0.250074
+
+Train Epoch: 42	>	Loss: 3.092537
+ recon_loss: 4.655359268188477, kl_loss: 0.5127610564231873, triplet: 0.5084798336029053
+Validation Epoch: 42	>	Loss: 3.092069	Score: 0.250074
+
+Train Epoch: 43	>	Loss: 3.092699
+ recon_loss: 4.655359268188477, kl_loss: 0.5115616917610168, triplet: 0.5092424750328064
+Validation Epoch: 43	>	Loss: 3.090627	Score: 0.250074
+
+Train Epoch: 44	>	Loss: 3.090947
+ recon_loss: 4.655359268188477, kl_loss: 0.5098127722740173, triplet: 0.5083634257316589
+Validation Epoch: 44	>	Loss: 3.092495	Score: 0.250074
+
+Train Epoch: 45	>	Loss: 3.091476
+ recon_loss: 4.655359268188477, kl_loss: 0.509841799736023, triplet: 0.5088790059089661
+Validation Epoch: 45	>	Loss: 3.084516	Score: 0.250074
+
+Train Epoch: 46	>	Loss: 3.088552
+ recon_loss: 4.655359268188477, kl_loss: 0.5090505480766296, triplet: 0.5063496828079224
+Validation Epoch: 46	>	Loss: 3.087281	Score: 0.250074
+
+Train Epoch: 47	>	Loss: 3.087311
+ recon_loss: 4.655359268188477, kl_loss: 0.5075835585594177, triplet: 0.5058430433273315
+Validation Epoch: 47	>	Loss: 3.087898	Score: 0.250074
+
+Train Epoch: 48	>	Loss: 3.087283
+ recon_loss: 4.655359268188477, kl_loss: 0.5072209239006042, triplet: 0.5059971809387207
+Validation Epoch: 48	>	Loss: 3.088479	Score: 0.250074
+
+Train Epoch: 49	>	Loss: 3.089211
+ recon_loss: 4.655381679534912, kl_loss: 0.5069981217384338, triplet: 0.5080253481864929
+Validation Epoch: 49	>	Loss: 3.087066	Score: 0.250074
+
+Train Epoch: 50	>	Loss: 3.084898
+ recon_loss: 4.655359268188477, kl_loss: 0.5061259865760803, triplet: 0.5041582584381104
+Validation Epoch: 50	>	Loss: 3.082671	Score: 0.250074
+
+Train Epoch: 51	>	Loss: 3.083948
+ recon_loss: 4.655359268188477, kl_loss: 0.5056666135787964, triplet: 0.5034398436546326
+Validation Epoch: 51	>	Loss: 3.086020	Score: 0.250074
+
+Train Epoch: 52	>	Loss: 3.083912
+ recon_loss: 4.655359268188477, kl_loss: 0.5051321983337402, triplet: 0.5036710500717163
+Validation Epoch: 52	>	Loss: 3.083168	Score: 0.250074
+
+Train Epoch: 53	>	Loss: 3.081989
+ recon_loss: 4.655359268188477, kl_loss: 0.5049676299095154, triplet: 0.5018267035484314
+Validation Epoch: 53	>	Loss: 3.081827	Score: 0.250074
+
+Train Epoch: 54	>	Loss: 3.081866
+ recon_loss: 4.655359268188477, kl_loss: 0.5038325786590576, triplet: 0.5022735595703125
+Validation Epoch: 54	>	Loss: 3.080204	Score: 0.250074
+
+Train Epoch: 55	>	Loss: 3.081653
+ recon_loss: 4.655359268188477, kl_loss: 0.5037404894828796, triplet: 0.5021060705184937
+Validation Epoch: 55	>	Loss: 3.081684	Score: 0.250074
+
+Train Epoch: 56	>	Loss: 3.081955
+ recon_loss: 4.655359268188477, kl_loss: 0.503226101398468, triplet: 0.5026686787605286
+Validation Epoch: 56	>	Loss: 3.080709	Score: 0.250074
+
+Train Epoch: 57	>	Loss: 3.081515
+ recon_loss: 4.655359268188477, kl_loss: 0.5029082894325256, triplet: 0.502386748790741
+Validation Epoch: 57	>	Loss: 3.083105	Score: 0.250074
+
+Train Epoch: 58	>	Loss: 3.081208
+ recon_loss: 4.655359268188477, kl_loss: 0.5021222829818726, triplet: 0.5024710893630981
+Validation Epoch: 58	>	Loss: 3.080426	Score: 0.250074
+
+Train Epoch: 59	>	Loss: 3.082268
+ recon_loss: 4.655359268188477, kl_loss: 0.502295196056366, triplet: 0.5034449100494385
+Validation Epoch: 59	>	Loss: 3.083237	Score: 0.250074
+
+Train Epoch: 60	>	Loss: 3.082246
+ recon_loss: 4.655359268188477, kl_loss: 0.5022294521331787, triplet: 0.5034550428390503
+Validation Epoch: 60	>	Loss: 3.081440	Score: 0.250074
+
+Train Epoch: 61	>	Loss: 3.081215
+ recon_loss: 4.655359268188477, kl_loss: 0.5016141533851624, triplet: 0.5027329921722412
+Validation Epoch: 61	>	Loss: 3.081156	Score: 0.250074
+
+Train Epoch: 62	>	Loss: 3.081551
+ recon_loss: 4.655359268188477, kl_loss: 0.5018423795700073, triplet: 0.5029533505439758
+Validation Epoch: 62	>	Loss: 3.080579	Score: 0.250074
+
+Train Epoch: 63	>	Loss: 3.080786
+ recon_loss: 4.655359268188477, kl_loss: 0.5014873147010803, triplet: 0.5023656487464905
+Validation Epoch: 63	>	Loss: 3.081030	Score: 0.250074
+
+Train Epoch: 64	>	Loss: 3.081009
+ recon_loss: 4.655359268188477, kl_loss: 0.5015842318534851, triplet: 0.5025407075881958
+Validation Epoch: 64	>	Loss: 3.079628	Score: 0.250074
+
+Train Epoch: 65	>	Loss: 3.080751
+ recon_loss: 4.655359268188477, kl_loss: 0.5012535452842712, triplet: 0.5024484992027283
+Validation Epoch: 65	>	Loss: 3.080267	Score: 0.250074
+
+Train Epoch: 66	>	Loss: 3.080407
+ recon_loss: 4.655359268188477, kl_loss: 0.5013841390609741, triplet: 0.5020396113395691
+Validation Epoch: 66	>	Loss: 3.080642	Score: 0.250074
+
+Train Epoch: 67	>	Loss: 3.080794
+ recon_loss: 4.655359268188477, kl_loss: 0.5012102723121643, triplet: 0.5025129914283752
+Validation Epoch: 67	>	Loss: 3.080398	Score: 0.250074
+
+Train Epoch: 68	>	Loss: 3.080931
+ recon_loss: 4.655359268188477, kl_loss: 0.5008324980735779, triplet: 0.5028377771377563
+Validation Epoch: 68	>	Loss: 3.082000	Score: 0.250074
+
+Train Epoch: 69	>	Loss: 3.081711
+ recon_loss: 4.655369281768799, kl_loss: 0.5004480481147766, triplet: 0.503805935382843
+Validation Epoch: 69	>	Loss: 3.083817	Score: 0.250074
+
+Train Epoch: 70	>	Loss: 3.081801
+ recon_loss: 4.655360221862793, kl_loss: 0.5007150769233704, triplet: 0.5037667155265808
+Validation Epoch: 70	>	Loss: 3.083859	Score: 0.250074
+
+Train Epoch: 71	>	Loss: 3.082579
+ recon_loss: 4.655359268188477, kl_loss: 0.5009525418281555, triplet: 0.504426896572113
+Validation Epoch: 71	>	Loss: 3.082918	Score: 0.250074
+
+Train Epoch: 72	>	Loss: 3.082039
+ recon_loss: 4.655359268188477, kl_loss: 0.5009199380874634, triplet: 0.5039034485816956
+Validation Epoch: 72	>	Loss: 3.083069	Score: 0.250074
+
+Train Epoch: 73	>	Loss: 3.081864
+ recon_loss: 4.655359268188477, kl_loss: 0.5006967782974243, triplet: 0.5038412809371948
+Validation Epoch: 73	>	Loss: 3.078700	Score: 0.250074
+
+Train Epoch: 74	>	Loss: 3.082072
+ recon_loss: 4.655359268188477, kl_loss: 0.5000233054161072, triplet: 0.5043843388557434
+Validation Epoch: 74	>	Loss: 3.079912	Score: 0.250074
+
+Train Epoch: 75	>	Loss: 3.081060
+ recon_loss: 4.655359268188477, kl_loss: 0.5013008117675781, triplet: 0.5027327537536621
+Validation Epoch: 75	>	Loss: 3.080654	Score: 0.250074
+
+Train Epoch: 76	>	Loss: 3.081625
+ recon_loss: 4.655359268188477, kl_loss: 0.5009279251098633, triplet: 0.5034847259521484
+Validation Epoch: 76	>	Loss: 3.082426	Score: 0.250074
+
+Train Epoch: 77	>	Loss: 3.081543
+ recon_loss: 4.655359268188477, kl_loss: 0.5007471442222595, triplet: 0.5034939646720886
+Validation Epoch: 77	>	Loss: 3.080647	Score: 0.250074
+
+Train Epoch: 78	>	Loss: 3.082568
+ recon_loss: 4.655359268188477, kl_loss: 0.5002186298370361, triplet: 0.5047838091850281
+Validation Epoch: 78	>	Loss: 3.082272	Score: 0.250074
+
+Train Epoch: 79	>	Loss: 3.081477
+ recon_loss: 4.655359268188477, kl_loss: 0.5006743669509888, triplet: 0.5034645795822144
+Validation Epoch: 79	>	Loss: 3.083631	Score: 0.250074
+
+Train Epoch: 80	>	Loss: 3.080831
+ recon_loss: 4.655359268188477, kl_loss: 0.5011373162269592, triplet: 0.5025841593742371
+Validation Epoch: 80	>	Loss: 3.079764	Score: 0.250074
+
+Train Epoch: 81	>	Loss: 3.080625
+ recon_loss: 4.655359268188477, kl_loss: 0.5006105303764343, triplet: 0.5026423931121826
+Validation Epoch: 81	>	Loss: 3.079981	Score: 0.250074
+
+Train Epoch: 82	>	Loss: 3.079822
+ recon_loss: 4.655359268188477, kl_loss: 0.5002855658531189, triplet: 0.5020036697387695
+Validation Epoch: 82	>	Loss: 3.080995	Score: 0.250074
+
+Train Epoch: 83	>	Loss: 3.080995
+ recon_loss: 4.655359268188477, kl_loss: 0.5006712079048157, triplet: 0.502983808517456
+Validation Epoch: 83	>	Loss: 3.079678	Score: 0.250074
+
+Train Epoch: 84	>	Loss: 3.082217
+ recon_loss: 4.655359268188477, kl_loss: 0.5011328458786011, triplet: 0.5039741396903992
+Validation Epoch: 84	>	Loss: 3.080852	Score: 0.250074
+
+Train Epoch: 85	>	Loss: 3.083799
+ recon_loss: 4.655359268188477, kl_loss: 0.5010890364646912, triplet: 0.5055782794952393
+Validation Epoch: 85	>	Loss: 3.085139	Score: 0.250074
+
+Train Epoch: 86	>	Loss: 3.084206
+ recon_loss: 4.655359268188477, kl_loss: 0.5003503561019897, triplet: 0.5063554644584656
+Validation Epoch: 86	>	Loss: 3.084380	Score: 0.250074
+
+Train Epoch: 87	>	Loss: 3.084165
+ recon_loss: 4.655359268188477, kl_loss: 0.500093400478363, triplet: 0.5064418911933899
+Validation Epoch: 87	>	Loss: 3.081980	Score: 0.250074
+
+Train Epoch: 88	>	Loss: 3.081519
+ recon_loss: 4.655359268188477, kl_loss: 0.499897837638855, triplet: 0.503893256187439
+Validation Epoch: 88	>	Loss: 3.083709	Score: 0.250074
+
+Train Epoch: 89	>	Loss: 3.082676
+ recon_loss: 4.655359268188477, kl_loss: 0.5001987814903259, triplet: 0.5049001574516296
+Validation Epoch: 89	>	Loss: 3.084434	Score: 0.250074
+
+Train Epoch: 90	>	Loss: 3.082013
+ recon_loss: 4.655390739440918, kl_loss: 0.5002201199531555, triplet: 0.504207968711853
+Validation Epoch: 90	>	Loss: 3.082729	Score: 0.250074
+
+Train Epoch: 91	>	Loss: 3.082772
+ recon_loss: 4.655359268188477, kl_loss: 0.5005087852478027, triplet: 0.5048404335975647
+Validation Epoch: 91	>	Loss: 3.080697	Score: 0.250074
+
+Train Epoch: 92	>	Loss: 3.082664
+ recon_loss: 4.655359268188477, kl_loss: 0.5001040697097778, triplet: 0.5049344897270203
+Validation Epoch: 92	>	Loss: 3.080610	Score: 0.250074
+
+Train Epoch: 93	>	Loss: 3.081763
+ recon_loss: 4.655359268188477, kl_loss: 0.5004264712333679, triplet: 0.5038737058639526
+Validation Epoch: 93	>	Loss: 3.080003	Score: 0.250074
+
+Train Epoch: 94	>	Loss: 3.080591
+ recon_loss: 4.655359268188477, kl_loss: 0.5005487203598022, triplet: 0.5026408433914185
+Validation Epoch: 94	>	Loss: 3.080095	Score: 0.250074
+
+Train Epoch: 95	>	Loss: 3.082269
+ recon_loss: 4.655359268188477, kl_loss: 0.5005947947502136, triplet: 0.504295825958252
+Validation Epoch: 95	>	Loss: 3.081362	Score: 0.250074
+
+Train Epoch: 96	>	Loss: 3.081603
+ recon_loss: 4.655359268188477, kl_loss: 0.5004202723503113, triplet: 0.5037173628807068
+Validation Epoch: 96	>	Loss: 3.083123	Score: 0.250074
+
+Train Epoch: 97	>	Loss: 3.082224
+ recon_loss: 4.655359268188477, kl_loss: 0.5004045963287354, triplet: 0.5043467283248901
+Validation Epoch: 97	>	Loss: 3.086629	Score: 0.250074
+
+Train Epoch: 98	>	Loss: 3.081803
+ recon_loss: 4.655359268188477, kl_loss: 0.5010212063789368, triplet: 0.5036168694496155
+Validation Epoch: 98	>	Loss: 3.079358	Score: 0.250074
+
+Train Epoch: 99	>	Loss: 3.081173
+ recon_loss: 4.655359268188477, kl_loss: 0.500082790851593, triplet: 0.5034543871879578
+Validation Epoch: 99	>	Loss: 3.080394	Score: 0.250074
+
+Train Epoch: 100	>	Loss: 3.081291
+ recon_loss: 4.655359268188477, kl_loss: 0.5007508993148804, triplet: 0.503241240978241
+Validation Epoch: 100	>	Loss: 3.079216	Score: 0.250074
+
+Train Epoch: 101	>	Loss: 3.080371
+ recon_loss: 4.655359268188477, kl_loss: 0.5001834034919739, triplet: 0.5026038885116577
+Validation Epoch: 101	>	Loss: 3.080435	Score: 0.250074
+
+Train Epoch: 102	>	Loss: 3.080581
+ recon_loss: 4.655359268188477, kl_loss: 0.500434935092926, triplet: 0.5026889443397522
+Validation Epoch: 102	>	Loss: 3.080001	Score: 0.250074
+
+Train Epoch: 103	>	Loss: 3.081575
+ recon_loss: 4.655359268188477, kl_loss: 0.5005338788032532, triplet: 0.5036313533782959
+Validation Epoch: 103	>	Loss: 3.079967	Score: 0.250074
+
+Train Epoch: 104	>	Loss: 3.081028
+ recon_loss: 4.655359268188477, kl_loss: 0.5005260109901428, triplet: 0.5030902624130249
+Validation Epoch: 104	>	Loss: 3.080216	Score: 0.250074
+
+Train Epoch: 105	>	Loss: 3.079727
+ recon_loss: 4.655359268188477, kl_loss: 0.5003533363342285, triplet: 0.5018733739852905
+Validation Epoch: 105	>	Loss: 3.081561	Score: 0.250074
+
+Train Epoch: 106	>	Loss: 3.081025
+ recon_loss: 4.655359268188477, kl_loss: 0.500386118888855, triplet: 0.5031542778015137
+Validation Epoch: 106	>	Loss: 3.080276	Score: 0.250074
+
+Train Epoch: 107	>	Loss: 3.081630
+ recon_loss: 4.655359268188477, kl_loss: 0.5002450942993164, triplet: 0.5038318037986755
+Validation Epoch: 107	>	Loss: 3.081056	Score: 0.250074
+
+Train Epoch: 108	>	Loss: 3.082554
+ recon_loss: 4.655359268188477, kl_loss: 0.4999666213989258, triplet: 0.5048960447311401
+Validation Epoch: 108	>	Loss: 3.083834	Score: 0.250074
+
+Train Epoch: 109	>	Loss: 3.082163
+ recon_loss: 4.655359268188477, kl_loss: 0.5001486539840698, triplet: 0.5044125318527222
+Validation Epoch: 109	>	Loss: 3.083591	Score: 0.250074
+
+Train Epoch: 110	>	Loss: 3.081916
+ recon_loss: 4.655359268188477, kl_loss: 0.5005061030387878, triplet: 0.5039859414100647
+Validation Epoch: 110	>	Loss: 3.079753	Score: 0.250074
+
+Train Epoch: 111	>	Loss: 3.080498
+ recon_loss: 4.655359268188477, kl_loss: 0.5005109310150146, triplet: 0.5025670528411865
+Validation Epoch: 111	>	Loss: 3.079935	Score: 0.250074
+
+Train Epoch: 112	>	Loss: 3.081138
+ recon_loss: 4.655359268188477, kl_loss: 0.4999231994152069, triplet: 0.5035008192062378
+Validation Epoch: 112	>	Loss: 3.081805	Score: 0.250074
+
+Train Epoch: 113	>	Loss: 3.081963
+ recon_loss: 4.655359268188477, kl_loss: 0.5006706118583679, triplet: 0.5039494037628174
+Validation Epoch: 113	>	Loss: 3.081497	Score: 0.250074
+
+Train Epoch: 114	>	Loss: 3.083207
+ recon_loss: 4.655359268188477, kl_loss: 0.5002230405807495, triplet: 0.5054223537445068
+Validation Epoch: 114	>	Loss: 3.082999	Score: 0.250074
+
+Train Epoch: 115	>	Loss: 3.082047
+ recon_loss: 4.655359268188477, kl_loss: 0.5002762675285339, triplet: 0.5042309165000916
+Validation Epoch: 115	>	Loss: 3.081565	Score: 0.250074
+
+Train Epoch: 116	>	Loss: 3.081799
+ recon_loss: 4.655359268188477, kl_loss: 0.5004703402519226, triplet: 0.5038868188858032
+Validation Epoch: 116	>	Loss: 3.084191	Score: 0.250074
+
+Train Epoch: 117	>	Loss: 3.083412
+ recon_loss: 4.655359268188477, kl_loss: 0.5001631379127502, triplet: 0.5056560635566711
+Validation Epoch: 117	>	Loss: 3.082494	Score: 0.250074
+
+Train Epoch: 118	>	Loss: 3.081951
+ recon_loss: 4.655359268188477, kl_loss: 0.5005416870117188, triplet: 0.5040056109428406
+Validation Epoch: 118	>	Loss: 3.083820	Score: 0.250074
+
+Train Epoch: 119	>	Loss: 3.082620
+ recon_loss: 4.655359268188477, kl_loss: 0.5000171661376953, triplet: 0.504935085773468
+Validation Epoch: 119	>	Loss: 3.081583	Score: 0.250074
+
+Train Epoch: 120	>	Loss: 3.082916
+ recon_loss: 4.655362129211426, kl_loss: 0.5004063248634338, triplet: 0.5050355792045593
+Validation Epoch: 120	>	Loss: 3.081309	Score: 0.250074
+
+Train Epoch: 121	>	Loss: 3.082320
+ recon_loss: 4.655360221862793, kl_loss: 0.5001703500747681, triplet: 0.5045583248138428
+Validation Epoch: 121	>	Loss: 3.084497	Score: 0.250074
+
+Train Epoch: 122	>	Loss: 3.081539
+ recon_loss: 4.655359268188477, kl_loss: 0.5006564855575562, triplet: 0.5035345554351807
+Validation Epoch: 122	>	Loss: 3.081069	Score: 0.250074
+
+Train Epoch: 123	>	Loss: 3.081410
+ recon_loss: 4.655359268188477, kl_loss: 0.5002623796463013, triplet: 0.5036025047302246
+Validation Epoch: 123	>	Loss: 3.078776	Score: 0.250074
+
+Train Epoch: 124	>	Loss: 3.080211
+ recon_loss: 4.655359268188477, kl_loss: 0.4999862015247345, triplet: 0.5025427937507629
+Validation Epoch: 124	>	Loss: 3.080279	Score: 0.250074
+
+Train Epoch: 125	>	Loss: 3.080722
+ recon_loss: 4.655359268188477, kl_loss: 0.5003529787063599, triplet: 0.5028692483901978
+Validation Epoch: 125	>	Loss: 3.082707	Score: 0.250074
+
+Train Epoch: 126	>	Loss: 3.082498
+ recon_loss: 4.655359268188477, kl_loss: 0.5003647208213806, triplet: 0.5046377182006836
+Validation Epoch: 126	>	Loss: 3.082337	Score: 0.250074
+
+Train Epoch: 127	>	Loss: 3.082595
+ recon_loss: 4.655360698699951, kl_loss: 0.5006872415542603, triplet: 0.5045744180679321
+Validation Epoch: 127	>	Loss: 3.081246	Score: 0.250074
+
+Train Epoch: 128	>	Loss: 3.081461
+ recon_loss: 4.655359268188477, kl_loss: 0.5000230669975281, triplet: 0.5037749409675598
+Validation Epoch: 128	>	Loss: 3.082506	Score: 0.250074
+
+Train Epoch: 129	>	Loss: 3.080410
+ recon_loss: 4.655359268188477, kl_loss: 0.49954646825790405, triplet: 0.5029599070549011
+Validation Epoch: 129	>	Loss: 3.080794	Score: 0.250074
+
+Train Epoch: 130	>	Loss: 3.081378
+ recon_loss: 4.655359268188477, kl_loss: 0.5004664063453674, triplet: 0.5034686923027039
+Validation Epoch: 130	>	Loss: 3.081641	Score: 0.250074
+
+Train Epoch: 131	>	Loss: 3.083203
+ recon_loss: 4.655359268188477, kl_loss: 0.5004521012306213, triplet: 0.5053016543388367
+Validation Epoch: 131	>	Loss: 3.080114	Score: 0.250074
+
+Train Epoch: 132	>	Loss: 3.081270
+ recon_loss: 4.655359268188477, kl_loss: 0.4999423325061798, triplet: 0.5036222338676453
+Validation Epoch: 132	>	Loss: 3.080203	Score: 0.250074
+
+Train Epoch: 133	>	Loss: 3.080868
+ recon_loss: 4.655359268188477, kl_loss: 0.49999740719795227, triplet: 0.5031927824020386
+Validation Epoch: 133	>	Loss: 3.083495	Score: 0.250074
+
+Train Epoch: 134	>	Loss: 3.080767
+ recon_loss: 4.655359268188477, kl_loss: 0.5006892681121826, triplet: 0.5027481913566589
+Validation Epoch: 134	>	Loss: 3.081320	Score: 0.250074
+
+Train Epoch: 135	>	Loss: 3.081307
+ recon_loss: 4.655359268188477, kl_loss: 0.5006499290466309, triplet: 0.5033071041107178
+Validation Epoch: 135	>	Loss: 3.079800	Score: 0.250074
+
+Train Epoch: 136	>	Loss: 3.080596
+ recon_loss: 4.655359268188477, kl_loss: 0.5000074505805969, triplet: 0.5029159188270569
+Validation Epoch: 136	>	Loss: 3.079081	Score: 0.250074
+
+Train Epoch: 137	>	Loss: 3.080794
+ recon_loss: 4.655359268188477, kl_loss: 0.4999025762081146, triplet: 0.5031676888465881
+Validation Epoch: 137	>	Loss: 3.081321	Score: 0.250074
+
+Train Epoch: 138	>	Loss: 3.081227
+ recon_loss: 4.655359268188477, kl_loss: 0.5003380179405212, triplet: 0.5033829808235168
+Validation Epoch: 138	>	Loss: 3.081241	Score: 0.250074
+
+Train Epoch: 139	>	Loss: 3.080754
+ recon_loss: 4.655359268188477, kl_loss: 0.5001599192619324, triplet: 0.503000020980835
+Validation Epoch: 139	>	Loss: 3.080558	Score: 0.250074
+
+Train Epoch: 140	>	Loss: 3.081412
+ recon_loss: 4.655359268188477, kl_loss: 0.5001397728919983, triplet: 0.5036659240722656
+Validation Epoch: 140	>	Loss: 3.081537	Score: 0.250074
+
+Train Epoch: 141	>	Loss: 3.081433
+ recon_loss: 4.655359268188477, kl_loss: 0.5006579756736755, triplet: 0.5034279227256775
+Validation Epoch: 141	>	Loss: 3.082235	Score: 0.250074
+
+Train Epoch: 142	>	Loss: 3.081703
+ recon_loss: 4.655359268188477, kl_loss: 0.5001287460327148, triplet: 0.5039631724357605
+Validation Epoch: 142	>	Loss: 3.079501	Score: 0.250074
+
+Train Epoch: 143	>	Loss: 3.080759
+ recon_loss: 4.655359268188477, kl_loss: 0.5001397132873535, triplet: 0.5030127167701721
+Validation Epoch: 143	>	Loss: 3.079642	Score: 0.250074
+
+Train Epoch: 144	>	Loss: 3.081913
+ recon_loss: 4.655359268188477, kl_loss: 0.4998498558998108, triplet: 0.5043126344680786
+Validation Epoch: 144	>	Loss: 3.079868	Score: 0.250074
+
+Train Epoch: 145	>	Loss: 3.082184
+ recon_loss: 4.655359268188477, kl_loss: 0.5000947713851929, triplet: 0.5044590830802917
+Validation Epoch: 145	>	Loss: 3.082098	Score: 0.250074
+
+Train Epoch: 146	>	Loss: 3.081515
+ recon_loss: 4.655359268188477, kl_loss: 0.5002766251564026, triplet: 0.5036989450454712
+Validation Epoch: 146	>	Loss: 3.079888	Score: 0.250074
+
+Train Epoch: 147	>	Loss: 3.082231
+ recon_loss: 4.655359268188477, kl_loss: 0.5009123086929321, triplet: 0.5040996670722961
+Validation Epoch: 147	>	Loss: 3.083742	Score: 0.250074
+
+Train Epoch: 148	>	Loss: 3.082292
+ recon_loss: 4.655359268188477, kl_loss: 0.5004400014877319, triplet: 0.5043944716453552
+Validation Epoch: 148	>	Loss: 3.079549	Score: 0.250074
+
+Train Epoch: 149	>	Loss: 3.080401
+ recon_loss: 4.655359268188477, kl_loss: 0.5003536343574524, triplet: 0.5025479793548584
+Validation Epoch: 149	>	Loss: 3.078865	Score: 0.250074
+
+Train Epoch: 150	>	Loss: 3.080108
+ recon_loss: 4.655359268188477, kl_loss: 0.4999634623527527, triplet: 0.5024515390396118
+Validation Epoch: 150	>	Loss: 3.082125	Score: 0.250074
+
+Train Epoch: 151	>	Loss: 3.081710
+ recon_loss: 4.655359268188477, kl_loss: 0.4997765123844147, triplet: 0.5041460394859314
+Validation Epoch: 151	>	Loss: 3.080108	Score: 0.250074
+
+Train Epoch: 152	>	Loss: 3.081967
+ recon_loss: 4.655359268188477, kl_loss: 0.5001335740089417, triplet: 0.5042235851287842
+Validation Epoch: 152	>	Loss: 3.080834	Score: 0.250074
+
+Train Epoch: 153	>	Loss: 3.083024
+ recon_loss: 4.655359268188477, kl_loss: 0.5001699924468994, triplet: 0.5052632093429565
+Validation Epoch: 153	>	Loss: 3.082772	Score: 0.250074
+
+Train Epoch: 154	>	Loss: 3.082141
+ recon_loss: 4.655359268188477, kl_loss: 0.500034749507904, triplet: 0.5044481754302979
+Validation Epoch: 154	>	Loss: 3.082068	Score: 0.250074
+
+Train Epoch: 155	>	Loss: 3.081915
+ recon_loss: 4.655359268188477, kl_loss: 0.49994221329689026, triplet: 0.5042678713798523
+Validation Epoch: 155	>	Loss: 3.082912	Score: 0.250074
+
+Train Epoch: 156	>	Loss: 3.081536
+ recon_loss: 4.655359268188477, kl_loss: 0.500386118888855, triplet: 0.5036655068397522
+Validation Epoch: 156	>	Loss: 3.081861	Score: 0.250074
+
+Train Epoch: 157	>	Loss: 3.083310
+ recon_loss: 4.655359268188477, kl_loss: 0.5003967881202698, triplet: 0.5054340958595276
+Validation Epoch: 157	>	Loss: 3.083398	Score: 0.250074
+
+Train Epoch: 158	>	Loss: 3.081241
+ recon_loss: 4.655359268188477, kl_loss: 0.500765860080719, triplet: 0.5031802654266357
+Validation Epoch: 158	>	Loss: 3.080230	Score: 0.250074
+
+Train Epoch: 159	>	Loss: 3.080256
+ recon_loss: 4.655359268188477, kl_loss: 0.5003895163536072, triplet: 0.5023880004882812
+Validation Epoch: 159	>	Loss: 3.081251	Score: 0.250074
+
+Train Epoch: 160	>	Loss: 3.080701
+ recon_loss: 4.655361175537109, kl_loss: 0.49994805455207825, triplet: 0.5030507445335388
+Validation Epoch: 160	>	Loss: 3.078315	Score: 0.250074
+
+Train Epoch: 161	>	Loss: 3.080899
+ recon_loss: 4.655359268188477, kl_loss: 0.5004667043685913, triplet: 0.502990186214447
+Validation Epoch: 161	>	Loss: 3.080854	Score: 0.250074
+
+Train Epoch: 162	>	Loss: 3.081140
+ recon_loss: 4.655359268188477, kl_loss: 0.49951571226119995, triplet: 0.5037084221839905
+Validation Epoch: 162	>	Loss: 3.082106	Score: 0.250074
+
+Train Epoch: 163	>	Loss: 3.082462
+ recon_loss: 4.655359268188477, kl_loss: 0.5003822445869446, triplet: 0.5045948028564453
+Validation Epoch: 163	>	Loss: 3.083807	Score: 0.250074
+
+Train Epoch: 164	>	Loss: 3.081786
+ recon_loss: 4.655359268188477, kl_loss: 0.5002313852310181, triplet: 0.5039945244789124
+Validation Epoch: 164	>	Loss: 3.079393	Score: 0.250074
+
+Train Epoch: 165	>	Loss: 3.082822
+ recon_loss: 4.655359268188477, kl_loss: 0.5005773901939392, triplet: 0.5048568844795227
+Validation Epoch: 165	>	Loss: 3.082899	Score: 0.250074
+
+Train Epoch: 166	>	Loss: 3.082918
+ recon_loss: 4.655359268188477, kl_loss: 0.5004656314849854, triplet: 0.5050086975097656
+Validation Epoch: 166	>	Loss: 3.083671	Score: 0.250074
+
+Train Epoch: 167	>	Loss: 3.082857
+ recon_loss: 4.655359268188477, kl_loss: 0.5004050731658936, triplet: 0.5049787759780884
+Validation Epoch: 167	>	Loss: 3.083986	Score: 0.250074
+
+Train Epoch: 168	>	Loss: 3.083513
+ recon_loss: 4.655359268188477, kl_loss: 0.500188410282135, triplet: 0.5057426691055298
+Validation Epoch: 168	>	Loss: 3.081990	Score: 0.250074
+
+Train Epoch: 169	>	Loss: 3.082739
+ recon_loss: 4.655359268188477, kl_loss: 0.5000840425491333, triplet: 0.5050205588340759
+Validation Epoch: 169	>	Loss: 3.082099	Score: 0.250074
+
+Train Epoch: 170	>	Loss: 3.081590
+ recon_loss: 4.655360698699951, kl_loss: 0.5004835724830627, triplet: 0.5036700963973999
+Validation Epoch: 170	>	Loss: 3.080812	Score: 0.250074
+
+Train Epoch: 171	>	Loss: 3.082495
+ recon_loss: 4.655359268188477, kl_loss: 0.49992799758911133, triplet: 0.5048555731773376
+Validation Epoch: 171	>	Loss: 3.081946	Score: 0.250074
+
+Train Epoch: 172	>	Loss: 3.081965
+ recon_loss: 4.655359268188477, kl_loss: 0.5000720620155334, triplet: 0.5042521953582764
+Validation Epoch: 172	>	Loss: 3.083554	Score: 0.250074
+
+Train Epoch: 173	>	Loss: 3.082475
+ recon_loss: 4.655359268188477, kl_loss: 0.5002491474151611, triplet: 0.5046756267547607
+Validation Epoch: 173	>	Loss: 3.079876	Score: 0.250074
+
+Train Epoch: 174	>	Loss: 3.082640
+ recon_loss: 4.655359268188477, kl_loss: 0.5004143714904785, triplet: 0.5047578811645508
+Validation Epoch: 174	>	Loss: 3.084131	Score: 0.250074
+
+Train Epoch: 175	>	Loss: 3.081881
+ recon_loss: 4.655359268188477, kl_loss: 0.5002440810203552, triplet: 0.5040834546089172
+Validation Epoch: 175	>	Loss: 3.083602	Score: 0.250074
+
+Train Epoch: 176	>	Loss: 3.083392
+ recon_loss: 4.655359268188477, kl_loss: 0.5002323985099792, triplet: 0.5055978298187256
+Validation Epoch: 176	>	Loss: 3.084386	Score: 0.250074
+
+Train Epoch: 177	>	Loss: 3.082624
+ recon_loss: 4.655359268188477, kl_loss: 0.5008078217506409, triplet: 0.5045444965362549
+Validation Epoch: 177	>	Loss: 3.082696	Score: 0.250074
+
+Train Epoch: 178	>	Loss: 3.082310
+ recon_loss: 4.655359268188477, kl_loss: 0.5001590251922607, triplet: 0.5045536756515503
+Validation Epoch: 178	>	Loss: 3.081498	Score: 0.250074
+
+Train Epoch: 179	>	Loss: 3.082043
+ recon_loss: 4.655359268188477, kl_loss: 0.5007203817367554, triplet: 0.5040062069892883
+Validation Epoch: 179	>	Loss: 3.082746	Score: 0.250074
+
+Train Epoch: 180	>	Loss: 3.082078
+ recon_loss: 4.655359268188477, kl_loss: 0.5001590251922607, triplet: 0.5043230056762695
+Validation Epoch: 180	>	Loss: 3.081892	Score: 0.250074
+
+Train Epoch: 181	>	Loss: 3.080863
+ recon_loss: 4.655359268188477, kl_loss: 0.5000433921813965, triplet: 0.5031647086143494
+Validation Epoch: 181	>	Loss: 3.082003	Score: 0.250074
+
+Train Epoch: 182	>	Loss: 3.081234
+ recon_loss: 4.655359268188477, kl_loss: 0.5002509355545044, triplet: 0.5034322738647461
+Validation Epoch: 182	>	Loss: 3.082453	Score: 0.250074
+
+Train Epoch: 183	>	Loss: 3.082360
+ recon_loss: 4.655359268188477, kl_loss: 0.5003792643547058, triplet: 0.5044938325881958
+Validation Epoch: 183	>	Loss: 3.083599	Score: 0.250074
+
+Train Epoch: 184	>	Loss: 3.082198
+ recon_loss: 4.655359268188477, kl_loss: 0.5001985430717468, triplet: 0.5044233202934265
+Validation Epoch: 184	>	Loss: 3.081562	Score: 0.250074
+
+Train Epoch: 185	>	Loss: 3.081794
+ recon_loss: 4.655359268188477, kl_loss: 0.5003042221069336, triplet: 0.5039655566215515
+Validation Epoch: 185	>	Loss: 3.079918	Score: 0.250074
+
+Train Epoch: 186	>	Loss: 3.082557
+ recon_loss: 4.655359268188477, kl_loss: 0.4998893439769745, triplet: 0.5049371123313904
+Validation Epoch: 186	>	Loss: 3.080580	Score: 0.250074
+
+Train Epoch: 187	>	Loss: 3.081731
+ recon_loss: 4.655359268188477, kl_loss: 0.49978965520858765, triplet: 0.5041587948799133
+Validation Epoch: 187	>	Loss: 3.081980	Score: 0.250074
+
+Train Epoch: 188	>	Loss: 3.081333
+ recon_loss: 4.655359268188477, kl_loss: 0.49999532103538513, triplet: 0.5036612749099731
+Validation Epoch: 188	>	Loss: 3.081330	Score: 0.250074
+
+Train Epoch: 189	>	Loss: 3.081958
+ recon_loss: 4.655359268188477, kl_loss: 0.5000576376914978, triplet: 0.5042523145675659
+Validation Epoch: 189	>	Loss: 3.079545	Score: 0.250074
+
+Train Epoch: 190	>	Loss: 3.081482
+ recon_loss: 4.655359268188477, kl_loss: 0.5008280873298645, triplet: 0.503391683101654
+Validation Epoch: 190	>	Loss: 3.079324	Score: 0.250074
+
+Train Epoch: 191	>	Loss: 3.080737
+ recon_loss: 4.655359268188477, kl_loss: 0.5004532337188721, triplet: 0.5028343796730042
+Validation Epoch: 191	>	Loss: 3.079593	Score: 0.250074
+
+Train Epoch: 192	>	Loss: 3.080074
+ recon_loss: 4.655359268188477, kl_loss: 0.5002777576446533, triplet: 0.5022596716880798
+Validation Epoch: 192	>	Loss: 3.081165	Score: 0.250074
+
+Train Epoch: 193	>	Loss: 3.080487
+ recon_loss: 4.655359268188477, kl_loss: 0.5002114772796631, triplet: 0.5027050971984863
+Validation Epoch: 193	>	Loss: 3.082845	Score: 0.250074
+
+Train Epoch: 194	>	Loss: 3.081499
+ recon_loss: 4.655359268188477, kl_loss: 0.5001183748245239, triplet: 0.5037640333175659
+Validation Epoch: 194	>	Loss: 3.081056	Score: 0.250074
+
+Train Epoch: 195	>	Loss: 3.083035
+ recon_loss: 4.655359268188477, kl_loss: 0.5003059506416321, triplet: 0.5052052140235901
+Validation Epoch: 195	>	Loss: 3.084590	Score: 0.250074
+
+Train Epoch: 196	>	Loss: 3.082374
+ recon_loss: 4.655359745025635, kl_loss: 0.50040203332901, triplet: 0.5044968724250793
+Validation Epoch: 196	>	Loss: 3.082533	Score: 0.250074
+
+Train Epoch: 197	>	Loss: 3.082926
+ recon_loss: 4.655360221862793, kl_loss: 0.500096321105957, triplet: 0.505202054977417
+Validation Epoch: 197	>	Loss: 3.079813	Score: 0.250074
+
+Train Epoch: 198	>	Loss: 3.081892
+ recon_loss: 4.655359268188477, kl_loss: 0.5003926753997803, triplet: 0.5040193200111389
+Validation Epoch: 198	>	Loss: 3.081107	Score: 0.250074
+
+Train Epoch: 199	>	Loss: 3.081774
+ recon_loss: 4.655359268188477, kl_loss: 0.5002861618995667, triplet: 0.5039566159248352
+Validation Epoch: 199	>	Loss: 3.079786	Score: 0.250074
+
+Train Epoch: 200	>	Loss: 3.082670
+ recon_loss: 4.655359268188477, kl_loss: 0.5006370544433594, triplet: 0.5046765208244324
+Validation Epoch: 200	>	Loss: 3.082271	Score: 0.250074
+
+Train Epoch: 201	>	Loss: 3.081337
+ recon_loss: 4.655359268188477, kl_loss: 0.5007132291793823, triplet: 0.5033053159713745
+Validation Epoch: 201	>	Loss: 3.082337	Score: 0.250074
+
+Train Epoch: 202	>	Loss: 3.082869
+ recon_loss: 4.655359268188477, kl_loss: 0.5001137256622314, triplet: 0.5051364898681641
+Validation Epoch: 202	>	Loss: 3.084286	Score: 0.250074
+
+Train Epoch: 203	>	Loss: 3.083225
+ recon_loss: 4.655359268188477, kl_loss: 0.5001969337463379, triplet: 0.5054525136947632
+Validation Epoch: 203	>	Loss: 3.081253	Score: 0.250074
+
+Train Epoch: 204	>	Loss: 3.082654
+ recon_loss: 4.655359268188477, kl_loss: 0.5000933408737183, triplet: 0.5049331784248352
+Validation Epoch: 204	>	Loss: 3.081961	Score: 0.250074
+
+Train Epoch: 205	>	Loss: 3.082760
+ recon_loss: 4.655359268188477, kl_loss: 0.49999892711639404, triplet: 0.5050866603851318
+Validation Epoch: 205	>	Loss: 3.080344	Score: 0.250074
+
+Train Epoch: 206	>	Loss: 3.083169
+ recon_loss: 4.655359268188477, kl_loss: 0.5001033544540405, triplet: 0.5054405927658081
+Validation Epoch: 206	>	Loss: 3.079745	Score: 0.250074
+
+Train Epoch: 207	>	Loss: 3.081690
+ recon_loss: 4.655359268188477, kl_loss: 0.500537097454071, triplet: 0.5037459135055542
+Validation Epoch: 207	>	Loss: 3.079393	Score: 0.250074
+
+Train Epoch: 208	>	Loss: 3.081416
+ recon_loss: 4.655359268188477, kl_loss: 0.49995964765548706, triplet: 0.5037617087364197
+Validation Epoch: 208	>	Loss: 3.081707	Score: 0.250074
+
+Train Epoch: 209	>	Loss: 3.081427
+ recon_loss: 4.655359268188477, kl_loss: 0.5004149079322815, triplet: 0.5035437345504761
+Validation Epoch: 209	>	Loss: 3.080171	Score: 0.250074
+
+Train Epoch: 210	>	Loss: 3.080430
+ recon_loss: 4.655359268188477, kl_loss: 0.5005969405174255, triplet: 0.5024545192718506
+Validation Epoch: 210	>	Loss: 3.079113	Score: 0.250074
+
+Train Epoch: 211	>	Loss: 3.080589
+ recon_loss: 4.655359268188477, kl_loss: 0.5003763437271118, triplet: 0.5027253031730652
+Validation Epoch: 211	>	Loss: 3.083261	Score: 0.250074
+
+Train Epoch: 212	>	Loss: 3.082038
+ recon_loss: 4.655359268188477, kl_loss: 0.5001873970031738, triplet: 0.504268229007721
+Validation Epoch: 212	>	Loss: 3.082724	Score: 0.250074
+
+Train Epoch: 213	>	Loss: 3.081675
+ recon_loss: 4.655359268188477, kl_loss: 0.4996589720249176, triplet: 0.5041703581809998
+Validation Epoch: 213	>	Loss: 3.082600	Score: 0.250074
+
+Train Epoch: 214	>	Loss: 3.082695
+ recon_loss: 4.655359268188477, kl_loss: 0.4998197555541992, triplet: 0.5051085352897644
+Validation Epoch: 214	>	Loss: 3.080203	Score: 0.250074
+
+Train Epoch: 215	>	Loss: 3.081702
+ recon_loss: 4.655359268188477, kl_loss: 0.5002233386039734, triplet: 0.5039148926734924
+Validation Epoch: 215	>	Loss: 3.081572	Score: 0.250074
+
+Train Epoch: 216	>	Loss: 3.081962
+ recon_loss: 4.655359268188477, kl_loss: 0.4998844861984253, triplet: 0.5043426752090454
+Validation Epoch: 216	>	Loss: 3.080941	Score: 0.250074
+
+Train Epoch: 217	>	Loss: 3.083183
+ recon_loss: 4.655359268188477, kl_loss: 0.500022828578949, triplet: 0.5054970979690552
+Validation Epoch: 217	>	Loss: 3.083110	Score: 0.250074
+
+Train Epoch: 218	>	Loss: 3.083708
+ recon_loss: 4.655359268188477, kl_loss: 0.5003954768180847, triplet: 0.505833089351654
+Validation Epoch: 218	>	Loss: 3.081094	Score: 0.250074
+
+Train Epoch: 219	>	Loss: 3.082373
+ recon_loss: 4.655359268188477, kl_loss: 0.5001540780067444, triplet: 0.5046205520629883
+Validation Epoch: 219	>	Loss: 3.083069	Score: 0.250074
+
+Train Epoch: 220	>	Loss: 3.082888
+ recon_loss: 4.655359268188477, kl_loss: 0.4999942183494568, triplet: 0.5052161812782288
+Validation Epoch: 220	>	Loss: 3.081595	Score: 0.250074
+
+Train Epoch: 221	>	Loss: 3.081754
+ recon_loss: 4.655361652374268, kl_loss: 0.500244140625, triplet: 0.5039560794830322
+Validation Epoch: 221	>	Loss: 3.081259	Score: 0.250074
+
+Train Epoch: 222	>	Loss: 3.081835
+ recon_loss: 4.655359268188477, kl_loss: 0.5002372860908508, triplet: 0.5040403604507446
+Validation Epoch: 222	>	Loss: 3.080965	Score: 0.250074
+
+Train Epoch: 223	>	Loss: 3.080750
+ recon_loss: 4.655359268188477, kl_loss: 0.5000565052032471, triplet: 0.5030447244644165
+Validation Epoch: 223	>	Loss: 3.084154	Score: 0.250074
+
+Train Epoch: 224	>	Loss: 3.082230
+ recon_loss: 4.655359268188477, kl_loss: 0.5002699494361877, triplet: 0.5044186115264893
+Validation Epoch: 224	>	Loss: 3.081333	Score: 0.250074
+
+Train Epoch: 225	>	Loss: 3.080779
+ recon_loss: 4.655359268188477, kl_loss: 0.5000633001327515, triplet: 0.5030718445777893
+Validation Epoch: 225	>	Loss: 3.081294	Score: 0.250074
+
+Train Epoch: 226	>	Loss: 3.081467
+ recon_loss: 4.655359268188477, kl_loss: 0.5000753998756409, triplet: 0.5037553906440735
+Validation Epoch: 226	>	Loss: 3.082667	Score: 0.250074
+
+Train Epoch: 227	>	Loss: 3.080145
+ recon_loss: 4.655359268188477, kl_loss: 0.5000376105308533, triplet: 0.5024510622024536
+Validation Epoch: 227	>	Loss: 3.079689	Score: 0.250074
+
+Train Epoch: 228	>	Loss: 3.081741
+ recon_loss: 4.655359268188477, kl_loss: 0.5000113844871521, triplet: 0.5040574669837952
+Validation Epoch: 228	>	Loss: 3.078918	Score: 0.250074
+
+Train Epoch: 229	>	Loss: 3.080529
+ recon_loss: 4.655359268188477, kl_loss: 0.49994832277297974, triplet: 0.5028803944587708
+Validation Epoch: 229	>	Loss: 3.079595	Score: 0.250074
+
+Train Epoch: 230	>	Loss: 3.081090
+ recon_loss: 4.655359268188477, kl_loss: 0.5000525116920471, triplet: 0.5033856630325317
+Validation Epoch: 230	>	Loss: 3.082372	Score: 0.250074
+
+Train Epoch: 231	>	Loss: 3.082452
+ recon_loss: 4.655359268188477, kl_loss: 0.500126838684082, triplet: 0.5047118663787842
+Validation Epoch: 231	>	Loss: 3.084099	Score: 0.250074
+
+Train Epoch: 232	>	Loss: 3.082700
+ recon_loss: 4.655359268188477, kl_loss: 0.4999788999557495, triplet: 0.5050340294837952
+Validation Epoch: 232	>	Loss: 3.082144	Score: 0.250074
+
+Train Epoch: 233	>	Loss: 3.082357
+ recon_loss: 4.655359268188477, kl_loss: 0.5000647306442261, triplet: 0.5046485662460327
+Validation Epoch: 233	>	Loss: 3.082306	Score: 0.250074
+
+Train Epoch: 234	>	Loss: 3.081962
+ recon_loss: 4.655359268188477, kl_loss: 0.5000109076499939, triplet: 0.5042815804481506
+Validation Epoch: 234	>	Loss: 3.083293	Score: 0.250074
+
+Train Epoch: 235	>	Loss: 3.082196
+ recon_loss: 4.655359268188477, kl_loss: 0.4999035894870758, triplet: 0.5045687556266785
+Validation Epoch: 235	>	Loss: 3.082644	Score: 0.250074
+
+Train Epoch: 236	>	Loss: 3.082700
+ recon_loss: 4.655359268188477, kl_loss: 0.5001521110534668, triplet: 0.5049455165863037
+Validation Epoch: 236	>	Loss: 3.080837	Score: 0.250074
+
+Train Epoch: 237	>	Loss: 3.081089
+ recon_loss: 4.655359268188477, kl_loss: 0.5010693073272705, triplet: 0.502878725528717
+Validation Epoch: 237	>	Loss: 3.080168	Score: 0.250074
+
+Train Epoch: 238	>	Loss: 3.080518
+ recon_loss: 4.655359268188477, kl_loss: 0.5002958178520203, triplet: 0.5026955604553223
+Validation Epoch: 238	>	Loss: 3.080552	Score: 0.250074
+
+Train Epoch: 239	>	Loss: 3.080152
+ recon_loss: 4.655359268188477, kl_loss: 0.500239372253418, triplet: 0.5023571252822876
+Validation Epoch: 239	>	Loss: 3.078828	Score: 0.250074
+
+Train Epoch: 240	>	Loss: 3.080196
+ recon_loss: 4.655359268188477, kl_loss: 0.49996066093444824, triplet: 0.5025396347045898
+Validation Epoch: 240	>	Loss: 3.080961	Score: 0.250074
+
+Train Epoch: 241	>	Loss: 3.080552
+ recon_loss: 4.655359268188477, kl_loss: 0.500016450881958, triplet: 0.5028678774833679
+Validation Epoch: 241	>	Loss: 3.081924	Score: 0.250074
+
+Train Epoch: 242	>	Loss: 3.082019
+ recon_loss: 4.655359268188477, kl_loss: 0.49990665912628174, triplet: 0.5043898820877075
+Validation Epoch: 242	>	Loss: 3.079917	Score: 0.250074
+
+Train Epoch: 243	>	Loss: 3.081931
+ recon_loss: 4.655359268188477, kl_loss: 0.5002225041389465, triplet: 0.5041433572769165
+Validation Epoch: 243	>	Loss: 3.083092	Score: 0.250074
+
+Train Epoch: 244	>	Loss: 3.082722
+ recon_loss: 4.655359268188477, kl_loss: 0.5001575946807861, triplet: 0.5049667358398438
+Validation Epoch: 244	>	Loss: 3.083956	Score: 0.250074
+
+Train Epoch: 245	>	Loss: 3.082692
+ recon_loss: 4.655359268188477, kl_loss: 0.5000613927841187, triplet: 0.5049862861633301
+Validation Epoch: 245	>	Loss: 3.082457	Score: 0.250074
+
+Train Epoch: 246	>	Loss: 3.081894
+ recon_loss: 4.655359268188477, kl_loss: 0.49978843331336975, triplet: 0.5043237209320068
+Validation Epoch: 246	>	Loss: 3.081172	Score: 0.250074
+
+Train Epoch: 247	>	Loss: 3.081568
+ recon_loss: 4.655359268188477, kl_loss: 0.4997076690196991, triplet: 0.5040399432182312
+Validation Epoch: 247	>	Loss: 3.081908	Score: 0.250074
+
+Train Epoch: 248	>	Loss: 3.082094
+ recon_loss: 4.655359268188477, kl_loss: 0.5002831816673279, triplet: 0.5042765140533447
+Validation Epoch: 248	>	Loss: 3.081780	Score: 0.250074
+
+Train Epoch: 249	>	Loss: 3.081934
+ recon_loss: 4.655359268188477, kl_loss: 0.5001282095909119, triplet: 0.5041948556900024
+Validation Epoch: 249	>	Loss: 3.080477	Score: 0.250074
+
+Train Epoch: 250	>	Loss: 3.080985
+ recon_loss: 4.655359268188477, kl_loss: 0.5004850029945374, triplet: 0.5030650496482849
+Validation Epoch: 250	>	Loss: 3.082227	Score: 0.250074
+
+Train Epoch: 251	>	Loss: 3.082777
+ recon_loss: 4.655359268188477, kl_loss: 0.5003153085708618, triplet: 0.5049424767494202
+Validation Epoch: 251	>	Loss: 3.082710	Score: 0.250074
+
+Train Epoch: 252	>	Loss: 3.082822
+ recon_loss: 4.655359268188477, kl_loss: 0.4997943043708801, triplet: 0.5052481889724731
+Validation Epoch: 252	>	Loss: 3.081958	Score: 0.250074
+
+Train Epoch: 253	>	Loss: 3.082448
+ recon_loss: 4.655361175537109, kl_loss: 0.5000401139259338, triplet: 0.5047504305839539
+Validation Epoch: 253	>	Loss: 3.080780	Score: 0.250074
+
+Train Epoch: 254	>	Loss: 3.082368
+ recon_loss: 4.655359268188477, kl_loss: 0.5001152753829956, triplet: 0.5046311020851135
+Validation Epoch: 254	>	Loss: 3.083546	Score: 0.250074
+
+Train Epoch: 255	>	Loss: 3.083326
+ recon_loss: 4.655359268188477, kl_loss: 0.5001136660575867, triplet: 0.5055937170982361
+Validation Epoch: 255	>	Loss: 3.085958	Score: 0.250074
+
+Train Epoch: 256	>	Loss: 3.081969
+ recon_loss: 4.655359268188477, kl_loss: 0.5004268884658813, triplet: 0.5040801167488098
+Validation Epoch: 256	>	Loss: 3.080274	Score: 0.250074
+
+Train Epoch: 257	>	Loss: 3.081698
+ recon_loss: 4.655359268188477, kl_loss: 0.5001394748687744, triplet: 0.5039498805999756
+Validation Epoch: 257	>	Loss: 3.081842	Score: 0.250074
+
+Train Epoch: 258	>	Loss: 3.083227
+ recon_loss: 4.655359268188477, kl_loss: 0.5003373622894287, triplet: 0.5053837299346924
+Validation Epoch: 258	>	Loss: 3.080949	Score: 0.250074
+
+Train Epoch: 259	>	Loss: 3.081698
+ recon_loss: 4.655359268188477, kl_loss: 0.5000025033950806, triplet: 0.5040191411972046
+Validation Epoch: 259	>	Loss: 3.081299	Score: 0.250074
+
+Train Epoch: 260	>	Loss: 3.081193
+ recon_loss: 4.655363082885742, kl_loss: 0.5003740191459656, triplet: 0.5033288598060608
+Validation Epoch: 260	>	Loss: 3.078984	Score: 0.250074
+
+Train Epoch: 261	>	Loss: 3.079953
+ recon_loss: 4.655359268188477, kl_loss: 0.5004428625106812, triplet: 0.5020552277565002
+Validation Epoch: 261	>	Loss: 3.079698	Score: 0.250074
+
+Train Epoch: 262	>	Loss: 3.079737
+ recon_loss: 4.655359268188477, kl_loss: 0.5001153349876404, triplet: 0.50200355052948
+Validation Epoch: 262	>	Loss: 3.079633	Score: 0.250074
+
+Train Epoch: 263	>	Loss: 3.080844
+ recon_loss: 4.655359268188477, kl_loss: 0.5000810027122498, triplet: 0.503128707408905
+Validation Epoch: 263	>	Loss: 3.079927	Score: 0.250074
+
+Train Epoch: 264	>	Loss: 3.081188
+ recon_loss: 4.655359268188477, kl_loss: 0.5004568696022034, triplet: 0.5032849311828613
+Validation Epoch: 264	>	Loss: 3.079061	Score: 0.250074
+
+Train Epoch: 265	>	Loss: 3.081054
+ recon_loss: 4.655359268188477, kl_loss: 0.49985066056251526, triplet: 0.503452479839325
+Validation Epoch: 265	>	Loss: 3.081439	Score: 0.250074
+
+Train Epoch: 266	>	Loss: 3.081115
+ recon_loss: 4.655359268188477, kl_loss: 0.49961045384407043, triplet: 0.5036346316337585
+Validation Epoch: 266	>	Loss: 3.081614	Score: 0.250074
+
+Train Epoch: 267	>	Loss: 3.082039
+ recon_loss: 4.655359268188477, kl_loss: 0.5001112222671509, triplet: 0.5043078660964966
+Validation Epoch: 267	>	Loss: 3.082502	Score: 0.250074
+
+Train Epoch: 268	>	Loss: 3.081950
+ recon_loss: 4.655359268188477, kl_loss: 0.5001465678215027, triplet: 0.5042003989219666
+Validation Epoch: 268	>	Loss: 3.081599	Score: 0.250074
+
+Train Epoch: 269	>	Loss: 3.081722
+ recon_loss: 4.655359268188477, kl_loss: 0.5003344416618347, triplet: 0.503882110118866
+Validation Epoch: 269	>	Loss: 3.083254	Score: 0.250074
+
+Train Epoch: 270	>	Loss: 3.082413
+ recon_loss: 4.655359268188477, kl_loss: 0.4999712407588959, triplet: 0.504753828048706
+Validation Epoch: 270	>	Loss: 3.083926	Score: 0.250074
+
+Train Epoch: 271	>	Loss: 3.083040
+ recon_loss: 4.655359268188477, kl_loss: 0.5006276369094849, triplet: 0.5050479769706726
+Validation Epoch: 271	>	Loss: 3.081849	Score: 0.250074
+
+Train Epoch: 272	>	Loss: 3.081562
+ recon_loss: 4.655359268188477, kl_loss: 0.5000187754631042, triplet: 0.503875732421875
+Validation Epoch: 272	>	Loss: 3.077739	Score: 0.250074
+
+Train Epoch: 273	>	Loss: 3.080658
+ recon_loss: 4.655359268188477, kl_loss: 0.5000844597816467, triplet: 0.5029386878013611
+Validation Epoch: 273	>	Loss: 3.081181	Score: 0.250074
+
+Train Epoch: 274	>	Loss: 3.081009
+ recon_loss: 4.655359268188477, kl_loss: 0.5002061724662781, triplet: 0.5032315254211426
+Validation Epoch: 274	>	Loss: 3.082955	Score: 0.250074
+
+Train Epoch: 275	>	Loss: 3.082354
+ recon_loss: 4.655359268188477, kl_loss: 0.49998730421066284, triplet: 0.504684329032898
+Validation Epoch: 275	>	Loss: 3.082741	Score: 0.250074
+
+Train Epoch: 276	>	Loss: 3.081046
+ recon_loss: 4.655359268188477, kl_loss: 0.5003413558006287, triplet: 0.5031976103782654
+Validation Epoch: 276	>	Loss: 3.082942	Score: 0.250074
+
+Train Epoch: 277	>	Loss: 3.082537
+ recon_loss: 4.655359268188477, kl_loss: 0.5002747178077698, triplet: 0.5047233700752258
+Validation Epoch: 277	>	Loss: 3.080112	Score: 0.250074
+
+Train Epoch: 278	>	Loss: 3.080385
+ recon_loss: 4.655359268188477, kl_loss: 0.500321090221405, triplet: 0.5025457739830017
+Validation Epoch: 278	>	Loss: 3.081287	Score: 0.250074
+
+Train Epoch: 279	>	Loss: 3.080069
+ recon_loss: 4.655359268188477, kl_loss: 0.4998643398284912, triplet: 0.5024608969688416
+Validation Epoch: 279	>	Loss: 3.081490	Score: 0.250074
+
+Train Epoch: 280	>	Loss: 3.082515
+ recon_loss: 4.655359268188477, kl_loss: 0.5003896355628967, triplet: 0.5046432614326477
+Validation Epoch: 280	>	Loss: 3.081748	Score: 0.250074
+
+Train Epoch: 281	>	Loss: 3.082771
+ recon_loss: 4.655359268188477, kl_loss: 0.5002123713493347, triplet: 0.5049894452095032
+Validation Epoch: 281	>	Loss: 3.082717	Score: 0.250074
+
+Train Epoch: 282	>	Loss: 3.082894
+ recon_loss: 4.655359268188477, kl_loss: 0.4999321699142456, triplet: 0.5052518248558044
+Validation Epoch: 282	>	Loss: 3.080732	Score: 0.250074
+
+Train Epoch: 283	>	Loss: 3.082677
+ recon_loss: 4.655359268188477, kl_loss: 0.5001887679100037, triplet: 0.5049058794975281
+Validation Epoch: 283	>	Loss: 3.080987	Score: 0.250074
+
+Train Epoch: 284	>	Loss: 3.083482
+ recon_loss: 4.655359268188477, kl_loss: 0.49988022446632385, triplet: 0.5058655142784119
+Validation Epoch: 284	>	Loss: 3.086547	Score: 0.250074
+
+Train Epoch: 285	>	Loss: 3.083288
+ recon_loss: 4.655359268188477, kl_loss: 0.4994349181652069, triplet: 0.5058950185775757
+Validation Epoch: 285	>	Loss: 3.086675	Score: 0.250074
+
+Train Epoch: 286	>	Loss: 3.082997
+ recon_loss: 4.655359268188477, kl_loss: 0.5002268552780151, triplet: 0.505207896232605
+Validation Epoch: 286	>	Loss: 3.079879	Score: 0.250074
+
+Train Epoch: 287	>	Loss: 3.082634
+ recon_loss: 4.655359268188477, kl_loss: 0.500636100769043, triplet: 0.5046414136886597
+Validation Epoch: 287	>	Loss: 3.083556	Score: 0.250074
+
+Train Epoch: 288	>	Loss: 3.083077
+ recon_loss: 4.655359268188477, kl_loss: 0.5002328753471375, triplet: 0.505283772945404
+Validation Epoch: 288	>	Loss: 3.085935	Score: 0.250074
+
+Train Epoch: 289	>	Loss: 3.083969
+ recon_loss: 4.655359268188477, kl_loss: 0.500572144985199, triplet: 0.5060073733329773
+Validation Epoch: 289	>	Loss: 3.083047	Score: 0.250074
+
+Train Epoch: 290	>	Loss: 3.082784
+ recon_loss: 4.655359268188477, kl_loss: 0.4997580051422119, triplet: 0.505228579044342
+Validation Epoch: 290	>	Loss: 3.080807	Score: 0.250074
+
+Train Epoch: 291	>	Loss: 3.080430
+ recon_loss: 4.655359268188477, kl_loss: 0.5002475380897522, triplet: 0.5026294589042664
+Validation Epoch: 291	>	Loss: 3.079397	Score: 0.250074
+
+Train Epoch: 292	>	Loss: 3.080185
+ recon_loss: 4.655359268188477, kl_loss: 0.5000199675559998, triplet: 0.5025005340576172
+Validation Epoch: 292	>	Loss: 3.080003	Score: 0.250074
+
+Train Epoch: 293	>	Loss: 3.082161
+ recon_loss: 4.655359268188477, kl_loss: 0.500127911567688, triplet: 0.5044223070144653
+Validation Epoch: 293	>	Loss: 3.079612	Score: 0.250074
+
+Train Epoch: 294	>	Loss: 3.082487
+ recon_loss: 4.655359268188477, kl_loss: 0.500138521194458, triplet: 0.5047410130500793
+Validation Epoch: 294	>	Loss: 3.081134	Score: 0.250074
+
+Train Epoch: 295	>	Loss: 3.083018
+ recon_loss: 4.655359268188477, kl_loss: 0.5002241730690002, triplet: 0.5052313208580017
+Validation Epoch: 295	>	Loss: 3.083062	Score: 0.250074
+
+Train Epoch: 296	>	Loss: 3.082971
+ recon_loss: 4.655359268188477, kl_loss: 0.5000683665275574, triplet: 0.5052620768547058
+Validation Epoch: 296	>	Loss: 3.082350	Score: 0.250074
+
+Train Epoch: 297	>	Loss: 3.081604
+ recon_loss: 4.655359268188477, kl_loss: 0.5001441240310669, triplet: 0.5038579106330872
+Validation Epoch: 297	>	Loss: 3.079740	Score: 0.250074
+
+Train Epoch: 298	>	Loss: 3.081188
+ recon_loss: 4.655359268188477, kl_loss: 0.49976298213005066, triplet: 0.5036309361457825
+Validation Epoch: 298	>	Loss: 3.080747	Score: 0.250074
+
+Train Epoch: 299	>	Loss: 3.081232
+ recon_loss: 4.655359268188477, kl_loss: 0.50020432472229, triplet: 0.503455400466919
+Validation Epoch: 299	>	Loss: 3.083910	Score: 0.250074
+
+Train Epoch: 300	>	Loss: 3.081930
+ recon_loss: 4.655359268188477, kl_loss: 0.4997478425502777, triplet: 0.5043794512748718
+Validation Epoch: 300	>	Loss: 3.080250	Score: 0.250074
+
+Train Epoch: 301	>	Loss: 3.081588
+ recon_loss: 4.655361175537109, kl_loss: 0.4997269809246063, triplet: 0.5040475726127625
+Validation Epoch: 301	>	Loss: 3.082518	Score: 0.250074
+
+Train Epoch: 302	>	Loss: 3.081818
+ recon_loss: 4.655359268188477, kl_loss: 0.5005209445953369, triplet: 0.5038807392120361
+Validation Epoch: 302	>	Loss: 3.079951	Score: 0.250074
+
+Train Epoch: 303	>	Loss: 3.081046
+ recon_loss: 4.655359268188477, kl_loss: 0.4999597668647766, triplet: 0.5033895969390869
+Validation Epoch: 303	>	Loss: 3.082156	Score: 0.250074
+
+Train Epoch: 304	>	Loss: 3.083033
+ recon_loss: 4.655359268188477, kl_loss: 0.5006799101829529, triplet: 0.5050172805786133
+Validation Epoch: 304	>	Loss: 3.081112	Score: 0.250074
+
+Train Epoch: 305	>	Loss: 3.081442
+ recon_loss: 4.655359268188477, kl_loss: 0.5003001689910889, triplet: 0.5036175847053528
+Validation Epoch: 305	>	Loss: 3.080024	Score: 0.250074
+
+Train Epoch: 306	>	Loss: 3.079888
+ recon_loss: 4.655359268188477, kl_loss: 0.5001417994499207, triplet: 0.5021404027938843
+Validation Epoch: 306	>	Loss: 3.079671	Score: 0.250074
+
+Train Epoch: 307	>	Loss: 3.080853
+ recon_loss: 4.655359268188477, kl_loss: 0.500407874584198, triplet: 0.5029727816581726
+Validation Epoch: 307	>	Loss: 3.080417	Score: 0.250074
+
+Train Epoch: 308	>	Loss: 3.081356
+ recon_loss: 4.655359268188477, kl_loss: 0.49995753169059753, triplet: 0.5037029385566711
+Validation Epoch: 308	>	Loss: 3.081337	Score: 0.250074
+
+Train Epoch: 309	>	Loss: 3.081461
+ recon_loss: 4.655359268188477, kl_loss: 0.5003806948661804, triplet: 0.503594160079956
+Validation Epoch: 309	>	Loss: 3.080071	Score: 0.250074
+
+Train Epoch: 310	>	Loss: 3.081165
+ recon_loss: 4.655359268188477, kl_loss: 0.49988996982574463, triplet: 0.5035443902015686
+Validation Epoch: 310	>	Loss: 3.080874	Score: 0.250074
+
+Train Epoch: 311	>	Loss: 3.081342
+ recon_loss: 4.655359268188477, kl_loss: 0.5000837445259094, triplet: 0.5036236643791199
+Validation Epoch: 311	>	Loss: 3.081688	Score: 0.250074
+
+Train Epoch: 312	>	Loss: 3.082401
+ recon_loss: 4.655359268188477, kl_loss: 0.5005703568458557, triplet: 0.504440426826477
+Validation Epoch: 312	>	Loss: 3.082718	Score: 0.250074
+
+Train Epoch: 313	>	Loss: 3.081659
+ recon_loss: 4.655359268188477, kl_loss: 0.5001345276832581, triplet: 0.50391685962677
+Validation Epoch: 313	>	Loss: 3.080944	Score: 0.250074
+
+Train Epoch: 314	>	Loss: 3.081403
+ recon_loss: 4.655359268188477, kl_loss: 0.49987226724624634, triplet: 0.5037917494773865
+Validation Epoch: 314	>	Loss: 3.082418	Score: 0.250074
+
+Train Epoch: 315	>	Loss: 3.082102
+ recon_loss: 4.655359268188477, kl_loss: 0.5002678632736206, triplet: 0.5042918920516968
+Validation Epoch: 315	>	Loss: 3.082396	Score: 0.250074
+
+Train Epoch: 316	>	Loss: 3.083467
+ recon_loss: 4.655359268188477, kl_loss: 0.5002347230911255, triplet: 0.505672812461853
+Validation Epoch: 316	>	Loss: 3.081768	Score: 0.250074
+
+Train Epoch: 317	>	Loss: 3.081915
+ recon_loss: 4.655359268188477, kl_loss: 0.5004904866218567, triplet: 0.5039960145950317
+Validation Epoch: 317	>	Loss: 3.080170	Score: 0.250074
+
+Train Epoch: 318	>	Loss: 3.080873
+ recon_loss: 4.655359268188477, kl_loss: 0.5002777576446533, triplet: 0.503058135509491
+Validation Epoch: 318	>	Loss: 3.080058	Score: 0.250074
+
+Train Epoch: 319	>	Loss: 3.080876
+ recon_loss: 4.655359268188477, kl_loss: 0.4997810125350952, triplet: 0.503308117389679
+Validation Epoch: 319	>	Loss: 3.080219	Score: 0.250074
+
+Train Epoch: 320	>	Loss: 3.081606
+ recon_loss: 4.655359268188477, kl_loss: 0.5005322694778442, triplet: 0.5036628246307373
+Validation Epoch: 320	>	Loss: 3.080902	Score: 0.250074
+
+Train Epoch: 321	>	Loss: 3.080838
+ recon_loss: 4.655359268188477, kl_loss: 0.49995407462120056, triplet: 0.5031828880310059
+Validation Epoch: 321	>	Loss: 3.081997	Score: 0.250074
+
+Train Epoch: 322	>	Loss: 3.080930
+ recon_loss: 4.655359268188477, kl_loss: 0.499573290348053, triplet: 0.5034690499305725
+Validation Epoch: 322	>	Loss: 3.082430	Score: 0.250074
+
+Train Epoch: 323	>	Loss: 3.081645
+ recon_loss: 4.655359268188477, kl_loss: 0.5000389814376831, triplet: 0.5039499998092651
+Validation Epoch: 323	>	Loss: 3.081396	Score: 0.250074
+
+Train Epoch: 324	>	Loss: 3.082046
+ recon_loss: 4.655359268188477, kl_loss: 0.5004674792289734, triplet: 0.5041365027427673
+Validation Epoch: 324	>	Loss: 3.081099	Score: 0.250074
+
+Train Epoch: 325	>	Loss: 3.082577
+ recon_loss: 4.655359268188477, kl_loss: 0.5003094673156738, triplet: 0.5047445893287659
+Validation Epoch: 325	>	Loss: 3.082224	Score: 0.250074
+
+Train Epoch: 326	>	Loss: 3.082615
+ recon_loss: 4.655359268188477, kl_loss: 0.4997650980949402, triplet: 0.505056619644165
+Validation Epoch: 326	>	Loss: 3.081915	Score: 0.250074
+
+Train Epoch: 327	>	Loss: 3.082149
+ recon_loss: 4.655359268188477, kl_loss: 0.5001377463340759, triplet: 0.504403829574585
+Validation Epoch: 327	>	Loss: 3.080839	Score: 0.250074
+
+Train Epoch: 328	>	Loss: 3.081054
+ recon_loss: 4.655359268188477, kl_loss: 0.49985358119010925, triplet: 0.5034497380256653
+Validation Epoch: 328	>	Loss: 3.081677	Score: 0.250074
+
+Train Epoch: 329	>	Loss: 3.083045
+ recon_loss: 4.655359268188477, kl_loss: 0.500175952911377, triplet: 0.5052815675735474
+Validation Epoch: 329	>	Loss: 3.083329	Score: 0.250074
+
+Train Epoch: 330	>	Loss: 3.082618
+ recon_loss: 4.655359268188477, kl_loss: 0.5000810027122498, triplet: 0.504900336265564
+Validation Epoch: 330	>	Loss: 3.081344	Score: 0.250074
+
+Train Epoch: 331	>	Loss: 3.082385
+ recon_loss: 4.655359268188477, kl_loss: 0.5000496506690979, triplet: 0.5046847462654114
+Validation Epoch: 331	>	Loss: 3.082654	Score: 0.250074
+
+Train Epoch: 332	>	Loss: 3.081114
+ recon_loss: 4.655359268188477, kl_loss: 0.4997986853122711, triplet: 0.503538966178894
+Validation Epoch: 332	>	Loss: 3.081455	Score: 0.250074
+
+Train Epoch: 333	>	Loss: 3.080786
+ recon_loss: 4.655359268188477, kl_loss: 0.49994614720344543, triplet: 0.50313800573349
+Validation Epoch: 333	>	Loss: 3.082532	Score: 0.250074
+
+Train Epoch: 334	>	Loss: 3.081210
+ recon_loss: 4.655359268188477, kl_loss: 0.49975043535232544, triplet: 0.5036574006080627
+Validation Epoch: 334	>	Loss: 3.079847	Score: 0.250074
+
+Train Epoch: 335	>	Loss: 3.082104
+ recon_loss: 4.655359268188477, kl_loss: 0.5004017353057861, triplet: 0.5042269229888916
+Validation Epoch: 335	>	Loss: 3.081256	Score: 0.250074
+
+Train Epoch: 336	>	Loss: 3.082858
+ recon_loss: 4.655359268188477, kl_loss: 0.5002502799034119, triplet: 0.5050573945045471
+Validation Epoch: 336	>	Loss: 3.082691	Score: 0.250074
+
+Train Epoch: 337	>	Loss: 3.082432
+ recon_loss: 4.655359268188477, kl_loss: 0.5002999305725098, triplet: 0.5046055316925049
+Validation Epoch: 337	>	Loss: 3.083150	Score: 0.250074
+
+Train Epoch: 338	>	Loss: 3.080704
+ recon_loss: 4.655359268188477, kl_loss: 0.5001852512359619, triplet: 0.5029338002204895
+Validation Epoch: 338	>	Loss: 3.080279	Score: 0.250074
+
+Train Epoch: 339	>	Loss: 3.080106
+ recon_loss: 4.655359268188477, kl_loss: 0.5001890659332275, triplet: 0.5023362040519714
+Validation Epoch: 339	>	Loss: 3.080664	Score: 0.250074
+
+Train Epoch: 340	>	Loss: 3.080964
+ recon_loss: 4.655359268188477, kl_loss: 0.4999549090862274, triplet: 0.5033098459243774
+Validation Epoch: 340	>	Loss: 3.083153	Score: 0.250074
+
+Train Epoch: 341	>	Loss: 3.083158
+ recon_loss: 4.655359268188477, kl_loss: 0.5006707310676575, triplet: 0.5051498413085938
+Validation Epoch: 341	>	Loss: 3.081472	Score: 0.250074
+
+Train Epoch: 342	>	Loss: 3.082609
+ recon_loss: 4.655359268188477, kl_loss: 0.49948471784591675, triplet: 0.5051910281181335
+Validation Epoch: 342	>	Loss: 3.082237	Score: 0.250074
+
+Train Epoch: 343	>	Loss: 3.082230
+ recon_loss: 4.655359268188477, kl_loss: 0.5002700090408325, triplet: 0.5044189095497131
+Validation Epoch: 343	>	Loss: 3.082367	Score: 0.250074
+
+Train Epoch: 344	>	Loss: 3.082193
+ recon_loss: 4.655359268188477, kl_loss: 0.5000826716423035, triplet: 0.5044753551483154
+Validation Epoch: 344	>	Loss: 3.081095	Score: 0.250074
+
+Train Epoch: 345	>	Loss: 3.082378
+ recon_loss: 4.655359268188477, kl_loss: 0.5002499222755432, triplet: 0.5045789480209351
+Validation Epoch: 345	>	Loss: 3.079425	Score: 0.250074
+
+Train Epoch: 346	>	Loss: 3.083066
+ recon_loss: 4.655359268188477, kl_loss: 0.5004495978355408, triplet: 0.5051633715629578
+Validation Epoch: 346	>	Loss: 3.082084	Score: 0.250074
+
+Train Epoch: 347	>	Loss: 3.081914
+ recon_loss: 4.6553635597229, kl_loss: 0.4999578297138214, triplet: 0.5042585134506226
+Validation Epoch: 347	>	Loss: 3.081558	Score: 0.250074
+
+Train Epoch: 348	>	Loss: 3.081779
+ recon_loss: 4.655359268188477, kl_loss: 0.500108003616333, triplet: 0.5040469169616699
+Validation Epoch: 348	>	Loss: 3.082103	Score: 0.250074
+
+Train Epoch: 349	>	Loss: 3.082528
+ recon_loss: 4.655359268188477, kl_loss: 0.5004595518112183, triplet: 0.5046218037605286
+Validation Epoch: 349	>	Loss: 3.081662	Score: 0.250074
+
+Train Epoch: 350	>	Loss: 3.082755
+ recon_loss: 4.655359268188477, kl_loss: 0.500687837600708, triplet: 0.5047348141670227
+Validation Epoch: 350	>	Loss: 3.082465	Score: 0.250074
+
+Train Epoch: 351	>	Loss: 3.081724
+ recon_loss: 4.655359268188477, kl_loss: 0.5000624060630798, triplet: 0.504019558429718
+Validation Epoch: 351	>	Loss: 3.081593	Score: 0.250074
+
+Train Epoch: 352	>	Loss: 3.081792
+ recon_loss: 4.655359268188477, kl_loss: 0.49993422627449036, triplet: 0.504149317741394
+Validation Epoch: 352	>	Loss: 3.082495	Score: 0.250074
+
+Train Epoch: 353	>	Loss: 3.081880
+ recon_loss: 4.655359268188477, kl_loss: 0.49998965859413147, triplet: 0.5042081475257874
+Validation Epoch: 353	>	Loss: 3.082876	Score: 0.250074
+
+Train Epoch: 354	>	Loss: 3.081847
+ recon_loss: 4.655359268188477, kl_loss: 0.5000298023223877, triplet: 0.5041579604148865
+Validation Epoch: 354	>	Loss: 3.081353	Score: 0.250074
+
+Train Epoch: 355	>	Loss: 3.082627
+ recon_loss: 4.655359268188477, kl_loss: 0.499847412109375, triplet: 0.5050269961357117
+Validation Epoch: 355	>	Loss: 3.083030	Score: 0.250074
+
+Train Epoch: 356	>	Loss: 3.082453
+ recon_loss: 4.655359268188477, kl_loss: 0.5000325441360474, triplet: 0.5047607421875
+Validation Epoch: 356	>	Loss: 3.084542	Score: 0.250074
+
+Train Epoch: 357	>	Loss: 3.082661
+ recon_loss: 4.655359268188477, kl_loss: 0.5001497864723206, triplet: 0.5049097537994385
+Validation Epoch: 357	>	Loss: 3.083132	Score: 0.250074
+
+Train Epoch: 358	>	Loss: 3.083896
+ recon_loss: 4.655359268188477, kl_loss: 0.5004530549049377, triplet: 0.5059924125671387
+Validation Epoch: 358	>	Loss: 3.082073	Score: 0.250074
+
+Train Epoch: 359	>	Loss: 3.082326
+ recon_loss: 4.655359268188477, kl_loss: 0.5001977682113647, triplet: 0.5045522451400757
+Validation Epoch: 359	>	Loss: 3.084382	Score: 0.250074
+
+Train Epoch: 360	>	Loss: 3.083067
+ recon_loss: 4.655359268188477, kl_loss: 0.5004794597625732, triplet: 0.5051506757736206
+Validation Epoch: 360	>	Loss: 3.081701	Score: 0.250074
+
+Train Epoch: 361	>	Loss: 3.082151
+ recon_loss: 4.655359268188477, kl_loss: 0.49971458315849304, triplet: 0.5046186447143555
+Validation Epoch: 361	>	Loss: 3.081733	Score: 0.250074
+
+Train Epoch: 362	>	Loss: 3.082168
+ recon_loss: 4.655359268188477, kl_loss: 0.5001264810562134, triplet: 0.5044282674789429
+Validation Epoch: 362	>	Loss: 3.083445	Score: 0.250074
+
+Train Epoch: 363	>	Loss: 3.083212
+ recon_loss: 4.655359268188477, kl_loss: 0.5001423954963684, triplet: 0.5054655075073242
+Validation Epoch: 363	>	Loss: 3.080935	Score: 0.250074
+
+Train Epoch: 364	>	Loss: 3.082185
+ recon_loss: 4.655359268188477, kl_loss: 0.4998789429664612, triplet: 0.5045702457427979
+Validation Epoch: 364	>	Loss: 3.081892	Score: 0.250074
+
+Train Epoch: 365	>	Loss: 3.081703
+ recon_loss: 4.655359268188477, kl_loss: 0.5002220273017883, triplet: 0.503915548324585
+Validation Epoch: 365	>	Loss: 3.084600	Score: 0.250074
+
+Train Epoch: 366	>	Loss: 3.082990
+ recon_loss: 4.655359268188477, kl_loss: 0.49978142976760864, triplet: 0.5054247975349426
+Validation Epoch: 366	>	Loss: 3.081990	Score: 0.250074
+
+Train Epoch: 367	>	Loss: 3.082776
+ recon_loss: 4.655359268188477, kl_loss: 0.500490665435791, triplet: 0.5048545598983765
+Validation Epoch: 367	>	Loss: 3.082647	Score: 0.250074
+
+Train Epoch: 368	>	Loss: 3.082302
+ recon_loss: 4.655359268188477, kl_loss: 0.5003284811973572, triplet: 0.5044615268707275
+Validation Epoch: 368	>	Loss: 3.081386	Score: 0.250074
+
+Train Epoch: 369	>	Loss: 3.081615
+ recon_loss: 4.655359268188477, kl_loss: 0.49984100461006165, triplet: 0.5040178298950195
+Validation Epoch: 369	>	Loss: 3.080555	Score: 0.250074
+
+Train Epoch: 370	>	Loss: 3.082532
+ recon_loss: 4.655359268188477, kl_loss: 0.4999101459980011, triplet: 0.504901647567749
+Validation Epoch: 370	>	Loss: 3.081607	Score: 0.250074
+
+Train Epoch: 371	>	Loss: 3.081534
+ recon_loss: 4.655359268188477, kl_loss: 0.5003810524940491, triplet: 0.5036669373512268
+Validation Epoch: 371	>	Loss: 3.079890	Score: 0.250074
+
+Train Epoch: 372	>	Loss: 3.082969
+ recon_loss: 4.655359268188477, kl_loss: 0.5000721216201782, triplet: 0.505257248878479
+Validation Epoch: 372	>	Loss: 3.082391	Score: 0.250074
+
+Train Epoch: 373	>	Loss: 3.082205
+ recon_loss: 4.655359268188477, kl_loss: 0.5003798007965088, triplet: 0.5043380856513977
+Validation Epoch: 373	>	Loss: 3.081168	Score: 0.250074
+
+Train Epoch: 374	>	Loss: 3.081934
+ recon_loss: 4.655359268188477, kl_loss: 0.49987325072288513, triplet: 0.504321813583374
+Validation Epoch: 374	>	Loss: 3.080295	Score: 0.250074
+
+Train Epoch: 375	>	Loss: 3.080654
+ recon_loss: 4.655359268188477, kl_loss: 0.500291109085083, triplet: 0.5028337836265564
+Validation Epoch: 375	>	Loss: 3.082649	Score: 0.250074
+
+Train Epoch: 376	>	Loss: 3.081772
+ recon_loss: 4.655359268188477, kl_loss: 0.5001112222671509, triplet: 0.5040401816368103
+Validation Epoch: 376	>	Loss: 3.079298	Score: 0.250074
+
+Train Epoch: 377	>	Loss: 3.081220
+ recon_loss: 4.655359268188477, kl_loss: 0.5001130104064941, triplet: 0.503487765789032
+Validation Epoch: 377	>	Loss: 3.081176	Score: 0.250074
+
+Train Epoch: 378	>	Loss: 3.082606
+ recon_loss: 4.655359268188477, kl_loss: 0.5000911951065063, triplet: 0.5048826336860657
+Validation Epoch: 378	>	Loss: 3.082870	Score: 0.250074
+
+Train Epoch: 379	>	Loss: 3.082169
+ recon_loss: 4.655359268188477, kl_loss: 0.4997437000274658, triplet: 0.5046204328536987
+Validation Epoch: 379	>	Loss: 3.081811	Score: 0.250074
+
+Train Epoch: 380	>	Loss: 3.082682
+ recon_loss: 4.655359268188477, kl_loss: 0.49966928362846375, triplet: 0.5051721930503845
+Validation Epoch: 380	>	Loss: 3.080688	Score: 0.250074
+
+Train Epoch: 381	>	Loss: 3.081536
+ recon_loss: 4.655359268188477, kl_loss: 0.5001721382141113, triplet: 0.503774106502533
+Validation Epoch: 381	>	Loss: 3.080580	Score: 0.250074
+
+Train Epoch: 382	>	Loss: 3.080646
+ recon_loss: 4.655359268188477, kl_loss: 0.49992725253105164, triplet: 0.503006100654602
+Validation Epoch: 382	>	Loss: 3.079763	Score: 0.250074
+
+Train Epoch: 383	>	Loss: 3.080555
+ recon_loss: 4.655359268188477, kl_loss: 0.5002846717834473, triplet: 0.5027377605438232
+Validation Epoch: 383	>	Loss: 3.084461	Score: 0.250074
+
+Train Epoch: 384	>	Loss: 3.081965
+ recon_loss: 4.655359268188477, kl_loss: 0.49974292516708374, triplet: 0.5044190883636475
+Validation Epoch: 384	>	Loss: 3.081008	Score: 0.250074
+
+Train Epoch: 385	>	Loss: 3.081265
+ recon_loss: 4.655359268188477, kl_loss: 0.4996970593929291, triplet: 0.5037398934364319
+Validation Epoch: 385	>	Loss: 3.079262	Score: 0.250074
+
+Train Epoch: 386	>	Loss: 3.081441
+ recon_loss: 4.655359268188477, kl_loss: 0.49995049834251404, triplet: 0.5037907361984253
+Validation Epoch: 386	>	Loss: 3.080524	Score: 0.250074
+
+Train Epoch: 387	>	Loss: 3.081621
+ recon_loss: 4.655359268188477, kl_loss: 0.5001983642578125, triplet: 0.503844678401947
+Validation Epoch: 387	>	Loss: 3.081973	Score: 0.250074
+
+Train Epoch: 388	>	Loss: 3.080874
+ recon_loss: 4.655359268188477, kl_loss: 0.5001878142356873, triplet: 0.5031044483184814
+Validation Epoch: 388	>	Loss: 3.080394	Score: 0.250074
+
+Train Epoch: 389	>	Loss: 3.080802
+ recon_loss: 4.655359268188477, kl_loss: 0.5000216364860535, triplet: 0.5031157732009888
+Validation Epoch: 389	>	Loss: 3.081147	Score: 0.250074
+
+Train Epoch: 390	>	Loss: 3.081901
+ recon_loss: 4.655359268188477, kl_loss: 0.500196635723114, triplet: 0.5041260123252869
+Validation Epoch: 390	>	Loss: 3.080207	Score: 0.250074
+
+Train Epoch: 391	>	Loss: 3.080426
+ recon_loss: 4.655359268188477, kl_loss: 0.49992606043815613, triplet: 0.502787172794342
+Validation Epoch: 391	>	Loss: 3.081389	Score: 0.250074
+
+Train Epoch: 392	>	Loss: 3.081592
+ recon_loss: 4.655359268188477, kl_loss: 0.5000733137130737, triplet: 0.503879725933075
+Validation Epoch: 392	>	Loss: 3.081773	Score: 0.250074
+
+Train Epoch: 393	>	Loss: 3.082857
+ recon_loss: 4.655359268188477, kl_loss: 0.5004293918609619, triplet: 0.5049660205841064
+Validation Epoch: 393	>	Loss: 3.081160	Score: 0.250074
+
+Train Epoch: 394	>	Loss: 3.081725
+ recon_loss: 4.655359268188477, kl_loss: 0.500571608543396, triplet: 0.5037651658058167
+Validation Epoch: 394	>	Loss: 3.081481	Score: 0.250074
+
+Train Epoch: 395	>	Loss: 3.081691
+ recon_loss: 4.655359268188477, kl_loss: 0.5003201365470886, triplet: 0.5038551092147827
+Validation Epoch: 395	>	Loss: 3.079909	Score: 0.250074
+
+Train Epoch: 396	>	Loss: 3.082561
+ recon_loss: 4.655359268188477, kl_loss: 0.5004628300666809, triplet: 0.5046552419662476
+Validation Epoch: 396	>	Loss: 3.080688	Score: 0.250074
+
+Train Epoch: 397	>	Loss: 3.081424
+ recon_loss: 4.655359268188477, kl_loss: 0.5004387497901917, triplet: 0.5035296082496643
+Validation Epoch: 397	>	Loss: 3.084957	Score: 0.250074
+
+Train Epoch: 398	>	Loss: 3.082006
+ recon_loss: 4.655359268188477, kl_loss: 0.5000296831130981, triplet: 0.5043129920959473
+Validation Epoch: 398	>	Loss: 3.081789	Score: 0.250074
+
+Train Epoch: 399	>	Loss: 3.081718
+ recon_loss: 4.655359268188477, kl_loss: 0.4999065399169922, triplet: 0.5040906667709351
+Validation Epoch: 399	>	Loss: 3.085350	Score: 0.250074
+
+Train Epoch: 400	>	Loss: 3.082751
+ recon_loss: 4.655359268188477, kl_loss: 0.5000953674316406, triplet: 0.5050264000892639
+Validation Epoch: 400	>	Loss: 3.080944	Score: 0.250074
+
+Train Epoch: 401	>	Loss: 3.082308
+ recon_loss: 4.655359268188477, kl_loss: 0.5004577040672302, triplet: 0.5044026374816895
+Validation Epoch: 401	>	Loss: 3.082630	Score: 0.250074
+
+Train Epoch: 402	>	Loss: 3.083009
+ recon_loss: 4.655359268188477, kl_loss: 0.49998968839645386, triplet: 0.505338728427887
+Validation Epoch: 402	>	Loss: 3.085201	Score: 0.250074
+
+Train Epoch: 403	>	Loss: 3.081987
+ recon_loss: 4.655359268188477, kl_loss: 0.4997909367084503, triplet: 0.504414439201355
+Validation Epoch: 403	>	Loss: 3.085128	Score: 0.250074
+
+Train Epoch: 404	>	Loss: 3.082361
+ recon_loss: 4.655359268188477, kl_loss: 0.4994661509990692, triplet: 0.5049509406089783
+Validation Epoch: 404	>	Loss: 3.084649	Score: 0.250074
+
+Train Epoch: 405	>	Loss: 3.082164
+ recon_loss: 4.655359268188477, kl_loss: 0.4998909831047058, triplet: 0.504545271396637
+Validation Epoch: 405	>	Loss: 3.082794	Score: 0.250074
+
+Train Epoch: 406	>	Loss: 3.081532
+ recon_loss: 4.655359268188477, kl_loss: 0.5000900626182556, triplet: 0.5038118362426758
+Validation Epoch: 406	>	Loss: 3.082416	Score: 0.250074
+
+Train Epoch: 407	>	Loss: 3.081639
+ recon_loss: 4.655359268188477, kl_loss: 0.5000213384628296, triplet: 0.5039540529251099
+Validation Epoch: 407	>	Loss: 3.082298	Score: 0.250074
+
+Train Epoch: 408	>	Loss: 3.084259
+ recon_loss: 4.655359268188477, kl_loss: 0.5001195073127747, triplet: 0.5065229535102844
+Validation Epoch: 408	>	Loss: 3.083990	Score: 0.250074
+
